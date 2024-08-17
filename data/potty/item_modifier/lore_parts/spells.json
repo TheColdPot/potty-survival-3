@@ -1,0 +1,168 @@
+[
+    {
+        "function": "reference",
+        "name": "potty:feature/become_right_clickable",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 1,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.wand"
+                }
+            }
+        ]
+    },
+    {
+        "function": "reference",
+        "name": "potty:feature/disable_block_interaction"
+    },
+    {
+        "function": "reference",
+        "name": "potty:feature/become_unstackable"
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "entity": "this",
+        "lore": [
+            "",
+            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.right_click.name","storage":"potty:item","interpret":true}, {"text":"  ʀɪɢʜᴛ ᴄʟɪᴄᴋ","bold":true,"color":"yellow"}],
+            [{"nbt":"target.components.minecraft:custom_data.spells.right_click.description","storage":"potty:item","interpret":true,"color":"gray","italic":false}],
+            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.right_click.cost","storage":"potty:item","color":"dark_aqua"}]]
+        ],
+
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.right_click.cost"
+                }
+            }
+        ]
+        
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "entity": "this",
+        "lore": [
+            [{"translate":"potty.charges","fallback":"Charges","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.right_click.max_charges","storage":"potty:item","color":"yellow"}], {"text":" / ","color":"gray"},[{"nbt":"target.components.minecraft:custom_data.spells.right_click.charge_time","storage":"potty:item","color":"gold"}, "s"]]
+        ],
+
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.right_click.max_charges"
+                }
+            }
+        ]
+        
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "entity": "this",
+        "lore": [
+            [{"translate":"potty.requires_full_cast","fallback":"Requires Full Cast!","color":"dark_gray","italic":false}]
+        ],
+
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.right_click.cost"
+                }
+            },
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.right_click.needs_full_cast"
+                }
+            }
+        ]
+        
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "entity": "this",
+        "lore": [
+            "",
+            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.sneak_click.name","storage":"potty:item","interpret":true}, {"text":"  sɴᴇᴀᴋ ᴄʟɪᴄᴋ","bold":true,"color":"yellow"}],
+            [{"nbt":"target.components.minecraft:custom_data.spells.sneak_click.description","storage":"potty:item","interpret":true,"color":"gray","italic":false}],
+            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.sneak_click.cost","storage":"potty:item","color":"dark_aqua"}]]
+        ],
+
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.sneak_click.cost"
+                }
+            }
+        ]
+        
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "entity": "this",
+        "lore": [
+            "",
+            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.name","storage":"potty:item","interpret":true}, {"text":"  ʜᴏʟᴅ sɴᴇᴀᴋ","bold":true,"color":"yellow"}],
+            [{"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.description","storage":"potty:item","interpret":true,"color":"gray","italic":false}],
+            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.cost","storage":"potty:item","color":"dark_aqua"}]]
+        ],
+
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.hold_sneak.cost"
+                }
+            }
+        ]
+        
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:max_damage": 360,
+            "minecraft:damage": 0
+        },
+
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": {"min": 1},
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.spells.right_click.max_charges"
+                }
+            }
+        ]
+        
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 13183530
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {"translate":"","fallback":"Bottle of Strength"},
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{rarity:4}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mace",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{rarity:4,potty_id:\"adams_hammer\",wand:1b}"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spells: {right_click: {name: '{\"translate\":\"potty.spell.hyperion.rc.name\",\"fallback\":\"Wither Impact\"}', description: '{\"translate\":\"potty.spell.ice_wand.rc.description\",\"fallback\":\"Teleport ahead, exploding dealing damage to nearby mob.\"}', cost: 150, max_cast_time: 1, cooldown: -4, release_on_full_cast:1b,no_cast_sound:1b}},stats:{damage:260,strength:150,intelligence:350,ferocity:30},rarity:4}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "potty.item.Hyperion",
+                                "fallback": "Adam's Hammer"
+                            },
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "reference",
+                            "name": "potty:feature/remove_tool"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

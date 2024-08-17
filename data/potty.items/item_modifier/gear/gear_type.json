@@ -1,0 +1,178 @@
+[
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            [
+                {"text":"🗡 Sword","italic":false,"color":"dark_gray"}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 1,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            [
+                {"text":"🗡 Pickaxe","italic":false,"color":"dark_gray"}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 2,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {"text":"🗡 Dagger","italic":false,"color":"dark_gray"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 3,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {"text":"🗡 Katana","italic":false,"color":"dark_gray"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 4,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {"text":"🗡 Axe","italic":false,"color":"dark_gray"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 5,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {"text":"🏹 Bow","italic":false,"color":"dark_gray"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 6,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {"text":"🏹 Shortbow","italic":false,"color":"dark_gray"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 7,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {"text":"🏹 Crossbow","italic":false,"color":"dark_gray"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 8,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "insert",
+        "offset": 1,
+        "lore": [""],
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term":{
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.gear_type"
+                    }
+                }
+            }
+        ]
+    }
+]

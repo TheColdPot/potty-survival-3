@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "written_book",
+                    "functions": [
+                        {
+                            "function": "set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                ["", {"text": "DISCLAIMER","underlined":true,"bold":true,"color":"dark_red"},"\n\n",{"text":"THIS BOOK IS FOR DEBUG ONLY.\nUSE ALL FEATURES HERE ON YOUR OWN RISK."},"\n\n",{"text":"[I don't understand...]","italic":true,"hoverEvent":{"action":"show_text","value":{"text":"MAYBE YOU CAN LEARN MORE HERE!","bold":true}},"clickEvent":{"action":"run_command","value":"/me has negative IQ, I guess..."},"underlined":true},"\n\n\n",{"translate":"potty.empty","fallback":"OOF! ","color":"dark_gray","bold":true},{"translate":"potty.empty","fallback":"You have no resource pack loaded!"}],
+
+                                ["", {"text": "Actionbar","underlined":true},"\n",{"text":"ᴇɴᴀʙʟᴇ","color":"dark_green","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players reset disable_actionbar debug.flags"}}," ",{"text":"ᴅɪsᴀʙʟᴇ","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players set disable_actionbar debug.flags 1"}},"\n\n"]
+                            ]
+                        },
+                        {
+                            "function": "set_book_cover",
+                            "author": "§kSomehow",
+                            "generation": 3
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "Debug Flags",
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{lore_up_to_date:1b}"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "rarity": "epic"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

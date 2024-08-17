@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "attacker",
+    "predicate": {
+        "type_specific": {
+            "type": "player",
+            "advancements": {
+                "potty.combat:melee_attack": true
+            }
+        }
+    }
+}

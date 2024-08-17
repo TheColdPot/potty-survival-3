@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "shikanokonokonokokoshitantan": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:player_hurt/by_entity"
+    }
+}

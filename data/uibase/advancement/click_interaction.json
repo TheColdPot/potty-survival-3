@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "interaction"
+          },
+          "player": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "vehicle": {
+                        "type": "minecraft:block_display"
+                    }
+                }
+            },
+            {
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": {
+                    "uibase_order": {
+                        "min": 0
+                    }
+                }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "function": "uibase:click/trigger/left_click"
+    }
+  }

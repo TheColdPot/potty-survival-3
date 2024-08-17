@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "potty:load",
+        "uibase:load"
+    ]
+}

@@ -1,0 +1,16 @@
+summon minecraft:area_effect_cloud ~ ~ ~ {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["boss_jungle.tentacle","boss_jungle.tentacle.anchor","new_summon"]}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_1", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[2.0f,2.0f,2.0f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_2", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[1.8f,1.8f,1.8f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_3", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[1.6f,1.6f,1.6f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_4", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[1.4f,1.4f,1.4f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_5", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[1.2f,1.2f,1.2f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_6", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[1.0f,1.0f,1.0f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_7", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[0.8f,0.8f,0.8f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_8", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[0.6f,0.6f,0.6f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_9", "boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[0.4f,0.4f,0.4f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["boss_jungle.tentacle.part_10","boss_jungle.tentacle.part","new_summon"],block_state:{Name:"minecraft:dark_oak_wood"},transformation:{scale:[0.2f,0.2f,0.2f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+
+execute as @e[tag=boss_jungle.tentacle.part,tag=new_summon] run ride @s mount @e[sort=nearest,limit=1,tag=new_summon,tag=boss_jungle.tentacle.anchor]
+
+tag @e[tag=new_summon] remove new_summon
+

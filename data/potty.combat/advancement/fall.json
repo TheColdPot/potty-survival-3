@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "somehow": {
+            "trigger": "fall_from_height",
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 0
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:nature_source/fall/occur.fall"
+    }
+}

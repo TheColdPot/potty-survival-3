@@ -1,0 +1,2 @@
+execute as @a[tag=opening_menu] at @s run function uibase:click/rotation/angle_change
+execute as @e[type=block_display,tag=menu_chair] unless function uibase:trigger/has_passenger at @s run function uibase:trigger/close2

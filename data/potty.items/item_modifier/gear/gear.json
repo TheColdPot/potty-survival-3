@@ -1,0 +1,28 @@
+[
+    {
+        "function": "reference",
+        "name": "potty.items:gear/gear_type"
+    },
+    {
+        "function": "reference",
+        "name": "potty.items:gear/stats"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "unbreakable": { "show_in_tooltip": false }
+        }
+    },
+    {
+        "function": "toggle_tooltips",
+        "toggles": {
+            "attribute_modifiers": false,
+            "dyed_color": false
+        }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{request_lore: 0b}"
+    }
+    
+]

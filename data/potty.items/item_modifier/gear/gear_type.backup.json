@@ -1,0 +1,181 @@
+[
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {"text":"🗡 ","italic":false,"color":"#ffffff"},
+                {"text":"S","italic":false,"color":"#f5f5f5"},
+                {"text":"w","italic":false,"color":"#ebebeb"},
+                {"text":"o","italic":false,"color":"#e0e0e0"},
+                {"text":"r","italic":false,"color":"#d6d6d6"},
+                {"text":"d","italic":false,"color":"#cccccc"}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 1,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [
+                {"text":"🗡 Pickaxe","italic":false,"color":"#d09056"},
+                {"text":"P","italic":false,"color":"#cd884a"},
+                {"text":"i","italic":false,"color":"#ca7f3d"},
+                {"text":"c","italic":false,"color":"#c77731"},
+                {"text":"k","italic":false,"color":"#c36e25"},
+                {"text":"a","italic":false,"color":"#c06619"},
+                {"text":"x","italic":false,"color":"#bd5d0c"},
+                {"text":"e","italic":false,"color":"#ba5500"}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 2,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"text":"🗡 Dagger","italic":false,"color":"#4682B4"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 3,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"text":"🗡 Katana","italic":false,"color":"#f2ca5c"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 4,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"text":"🗡 Axe","italic":false,"color":"#6e8f35"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 5,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"text":"🏹 Bow","italic":false,"color":"#74b816"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 6,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"text":"🏹 Shortbow","italic":false,"color":"#D3D3D3"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 7,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"text":"🏹 Crossbow","italic":false,"color":"#8B4513"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 8,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.gear_type"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [""],
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term":{
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.gear_type"
+                    }
+                }
+            }
+        ]
+    }
+]

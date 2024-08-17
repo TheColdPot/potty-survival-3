@@ -1,0 +1,2 @@
+execute if entity @s[tag=combat.damage_splash] run function potty.combat:damage_splash/tick.damage_splash
+execute if entity @s[tag=combat.health_bar] run function potty.combat:health_bar/tick.health_bar

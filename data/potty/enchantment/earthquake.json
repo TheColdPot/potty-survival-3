@@ -1,0 +1,77 @@
+{
+    "description": {
+        "text": "Earthquake",
+        "color": "light_purple",
+        "font": "minecraft:default",
+        "bold": true
+    },
+    "supported_items": "#minecraft:enchantable/mace",
+    "weight": 1,
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 1,
+        "per_level_above_first": 1
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:explode",
+                    "radius": 6,
+                    "block_interaction": "trigger",
+                    "small_particle": {
+                        "type": "minecraft:explosion"
+                    },
+                    "large_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
+                    "sound": "minecraft:entity.lightning_bolt.impact",
+                    "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+                    "knockback_multiplier": {
+                        "type": "minecraft:lookup",
+                        "values": [
+                            1,
+                            0.2,
+                            1
+                        ],
+                        "fallback": 1
+                    },
+                    "attribute_to_user": false
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "direct_attacker",
+                            "predicate": {
+                                "flags": {
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_on_ground": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

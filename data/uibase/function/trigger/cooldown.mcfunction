@@ -1,0 +1,1 @@
+execute on vehicle if entity @s[nbt={PortalCooldown:0}] run return 1

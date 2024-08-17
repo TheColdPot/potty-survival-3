@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "blaze_rod",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{rarity:4,no_stats:1b,potty_id:\"precursor_staff\",wand:1b,spell_count:3}"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spells: {right_click: {name: '{\"translate\":\"potty.spell.precursor_staff.rc.name\",\"fallback\":\"Shock Beam\"}', description: '{\"translate\":\"potty.spell.precursor_staff.rc.description\",\"fallback\":\"Cast a beam that damages all mobs in its path.\"}', cost: 40, max_cast_time: 20, cooldown: -5}}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "potty.item.precursor_staff",
+                                "fallback": "Precursor Staff"
+                            },
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "reference",
+                            "name": "potty:feature/remove_tool"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

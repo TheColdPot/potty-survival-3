@@ -1,0 +1,10 @@
+execute if entity @s[tag=boss_jungle.tentacle.part_1 ] run data merge entity @s {trasnformation:{scale:[2.0f,2.0f,2.0f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_2 ] run data merge entity @s {trasnformation:{scale:[1.8f,1.8f,1.8f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_3 ] run data merge entity @s {trasnformation:{scale:[1.6f,1.6f,1.6f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_4 ] run data merge entity @s {trasnformation:{scale:[1.4f,1.4f,1.4f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_5 ] run data merge entity @s {trasnformation:{scale:[1.2f,1.2f,1.2f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_6 ] run data merge entity @s {trasnformation:{scale:[1.0f,1.0f,1.0f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_7 ] run data merge entity @s {trasnformation:{scale:[0.8f,0.8f,0.8f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_8 ] run data merge entity @s {trasnformation:{scale:[0.6f,0.6f,0.6f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_9 ] run data merge entity @s {trasnformation:{scale:[0.4f,0.4f,0.4f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}
+execute if entity @s[tag=boss_jungle.tentacle.part_10] run data merge entity @s {trasnformation:{scale:[0.2f,0.2f,0.2f],translation:[-0.5f,-0.5f,-0.5f],left_rotation:[1f,0f,0f,0f],right_rotation:[1f,0f,0f,0f]}}

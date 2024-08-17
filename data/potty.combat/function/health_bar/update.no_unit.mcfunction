@@ -1,0 +1,1 @@
+data merge entity @s {text:'[{"nbt":"CustomName","entity":"@s","interpret":true}," ",[{"score":{"name":"current_health","objective":"var"},"color":"red"},"/",{"score":{"name":"current_max_health","objective":"var"}}]]'}

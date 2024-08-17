@@ -1,0 +1,2 @@
+particle poof
+kill @s

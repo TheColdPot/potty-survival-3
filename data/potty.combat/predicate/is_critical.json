@@ -1,0 +1,12 @@
+{
+    "condition": "random_chance",
+    "chance": {
+            "type": "score",
+            "score": "crit_chance",
+            "target": {
+                "type": "context",
+                "target": "this"
+            },
+            "scale": 0.01
+        }
+}

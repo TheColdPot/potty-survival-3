@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "interaction"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "uibase:click/trigger/right_click"
+    }
+  }

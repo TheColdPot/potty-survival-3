@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:text_display,tag=uibase_set_state] run function uibase:ui/main/set_state/do

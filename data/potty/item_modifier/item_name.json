@@ -1,0 +1,20 @@
+[
+    {
+        "function": "set_name",
+        "target": "item_name",
+        "name": {"nbt":"target.components.minecraft:custom_data.name","interpret":true,"storage":"potty:item","color":"light_purple"},
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 4,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.rarity"
+                }
+            }
+        ]
+    }
+]
+

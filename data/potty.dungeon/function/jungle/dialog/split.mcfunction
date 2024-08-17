@@ -1,0 +1,10 @@
+execute store result score dialog_number var run random value 1..9
+execute if score dialog_number var matches 1 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": Impressive."]
+execute if score dialog_number var matches 2 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": Meet my undeads."]
+execute if score dialog_number var matches 3 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": I wish it didn't have to come to this."]
+execute if score dialog_number var matches 4 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": You forced me to."]
+execute if score dialog_number var matches 5 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": Behold my stronger wave of army."]
+execute if score dialog_number var matches 6 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": It's getting exciting..."]
+execute if score dialog_number var matches 7 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": Still distant from defeating me!"]
+execute if score dialog_number var matches 8 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": My leadership is not going to be ruined by you!"]
+execute if score dialog_number var matches 9 run tellraw @a ["",[{"text":"[BOSS] ","color":"red"},{"selector":"@s"}], ": Just you wait..."]

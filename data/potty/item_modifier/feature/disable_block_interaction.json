@@ -1,0 +1,13 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "name": "disable_block_interaction",
+            "attribute": "minecraft:player.block_interaction_range",
+            "operation": "add_value",
+            "amount": -10,
+            "slot": "mainhand",
+            "id": "df9d4da1-b37e-4541-9ea6-2aaca8ff066a"
+        }
+    ]
+}

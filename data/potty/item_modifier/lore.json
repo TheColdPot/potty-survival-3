@@ -1,0 +1,193 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "!minecraft:lore": {}
+        }
+    },
+    {
+        "function": "reference",
+        "name": "potty.items:gear/stats",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 0,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.no_stats"
+                }
+            }
+        ]
+    },
+    {
+        "function": "reference",
+        "name": "potty:item_name",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 1,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target_has_name"
+                }
+            }
+        ]
+    },
+    {
+        "function": "reference",
+        "name": "potty:lore_parts/spells",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 1,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.wand"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            "",
+            {
+                "translate": "potty.rarity.0",
+                "fallback": "COMMON",
+                "bold": true,
+                "color": "white",
+                "italic": false
+            }
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": {
+                        "min": 1
+                    },
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.rarity"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            "",
+            {
+                "translate": "potty.rarity.1",
+                "fallback": "RARE",
+                "bold": true,
+                "color": "blue",
+                "italic": false
+            }
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 1,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.rarity"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            "",
+            {
+                "translate": "potty.rarity.4",
+                "fallback": "MYTHIC",
+                "bold": true,
+                "color": "light_purple",
+                "italic": false
+            }
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": 4,
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.rarity"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:unbreakable": {}
+        },
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "value_check",
+                            "range": 1,
+                            "value": {
+                                "type": "storage",
+                                "storage": "potty:item",
+                                "path": "target.components.minecraft:custom_data.breakable"
+                            }
+                        },
+                        {
+                            "condition": "value_check",
+                            "range": 1,
+                            "value": {
+                                "type": "storage",
+                                "storage": "potty:item",
+                                "path": "target.components.minecraft:custom_data.has_charge"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{lore_up_to_date:1b}"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "hide_additional_tooltip": {}
+        }
+    },
+    {
+        "function": "toggle_tooltips",
+        "toggles": {
+            "trim": false,
+            "dyed_color": false,
+            "enchantments": false,
+            "stored_enchantments": false,
+            "unbreakable": false,
+            "can_break": false,
+            "can_place_on": false,
+            "attribute_modifiers": false
+        }
+    }
+]

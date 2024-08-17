@@ -1,0 +1,243 @@
+[
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.health","fallback":"Health","color":"gray","italic":false},": ",[{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.health","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.health"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.defense","fallback":"Defense","color":"gray","italic":false},": ",[{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.defense","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.defense"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.damage","fallback":"Damage","color":"gray","italic":false},": ",[{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.damage","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.damage"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.strength","fallback":"Strength","color":"gray","italic":false},": ",[{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.strength","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.strength"
+                    }
+                }
+            }
+        ]
+    },
+    
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.crit_chance","fallback":"Critical Chance","color":"gray","italic":false},": ",[{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.crit_chance","storage":"potty:item"},"%"]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.crit_chance"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.crit_damage","fallback":"Critical Damage","color":"gray","italic":false},": ",[{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.crit_damage","storage":"potty:item"},"%"]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.crit_damage"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.intelligence","fallback":"Intelligence","color":"gray","italic":false},": ",[{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.intelligence","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.intelligence"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.attack_speed","fallback":"Attack Speed","color":"gray","italic":false},": ",[{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.attack_speed","storage":"potty:item"},"%"]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.attack_speed"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.ferocity","fallback":"Ferocity","color":"gray","italic":false},": ",[{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.ferocity","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.ferocity"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.melee_combo","fallback":"Cyclone Power","color":"gray","italic":false},": ",[{"text":"+","color":"dark_aqua"},{"nbt":"target.components.minecraft:custom_data.stats.melee_combo","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.melee_combo"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.ranged_combo","fallback":"Nova Strike Power","color":"gray","italic":false},": ",[{"text":"+","color":"dark_aqua"},{"nbt":"target.components.minecraft:custom_data.stats.ranged_combo","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.ranged_combo"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [[{"translate":"potty.stats.support_combo","fallback":"Aegis Power","color":"gray","italic":false},": ",[{"text":"+","color":"dark_aqua"},{"nbt":"target.components.minecraft:custom_data.stats.support_combo","storage":"potty:item"}]]],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "value_check",
+                    "range": 0,
+                    "value": {
+                        "type": "storage",
+                        "storage": "potty:item",
+                        "path": "target.components.minecraft:custom_data.stats.support_combo"
+                    }
+                }
+            }
+        ]
+    }
+]

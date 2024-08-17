@@ -1,0 +1,12 @@
+{
+    "condition": "random_chance",
+    "chance": {
+            "type": "score",
+            "score": "var",
+            "target": {
+                "type": "fixed",
+                "name": "crit_chance"
+            },
+            "scale": 0.01
+        }
+}

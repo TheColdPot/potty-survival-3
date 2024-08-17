@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty:_callback/player_hurt_by_entity"
+    }
+}

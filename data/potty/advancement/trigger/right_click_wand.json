@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "click": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{wand: 1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty:_callback/test"
+    }
+}

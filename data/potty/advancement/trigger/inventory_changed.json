@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inventory_change": {
+            "trigger": "inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "potty:_callback/inventory_changed"
+    }
+}

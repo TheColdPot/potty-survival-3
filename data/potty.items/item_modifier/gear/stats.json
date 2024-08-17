@@ -1,0 +1,182 @@
+[
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.health","storage":"potty:item"},[{"text":" ❤ ","color":"gray"}, {"translate":"potty.stats.health","fallback":"Health"}]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.health"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.health","storage":"potty:item"},[{"text":" 🛡 ","color":"gray"}, {"translate":"potty.stats.defense","fallback":"Defense"}]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.health"
+                }
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.damage","storage":"potty:item"},[{"text":" ⚔ ","color":"gray"}, {"text":"Damage"}]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.damage"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.strength","storage":"potty:item"},[{"text":" 🍖 ","color":"gray"}, "Strength"]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.strength"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.crit_chance","storage":"potty:item"},"%",[{"text":" ☠ ","color":"gray"}, "Critical Chance"]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.crit_chance"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.crit_damage","storage":"potty:item"},"%",[{"text":" ☠ ","color":"gray"}, "Critical Damage"]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.crit_damage"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.attack_distance","storage":"potty:item"},[{"text":" ⚓ ","color":"gray"}, "Attack Distance"]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.attack_distance"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.ferocity","storage":"potty:item"},[{"text":" ♦ ","color":"gray"}, "Ferocity"]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.ferocity"
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.attack_speed","storage":"potty:item"},"%",[{"text":" ⏳ ","color":"gray"}, "Attack Speed"]]
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "range": { "min": 1 },
+                "value": {
+                    "type": "storage",
+                    "storage": "potty:item",
+                    "path": "target.components.minecraft:custom_data.stats.attack_speed"
+                }
+            }
+        ]
+    }
+
+
+
+
+]

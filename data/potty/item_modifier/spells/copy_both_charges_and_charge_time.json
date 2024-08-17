@@ -1,0 +1,4 @@
+[
+    { "function": "copy_custom_data", "ops": [{"op": "replace", "source": "current_charges", "target": "current_charges"}], "source": { "type": "storage", "source": "potty:player" } },
+    { "function": "copy_custom_data", "ops": [{"op": "replace", "source": "last_charge_time", "target": "last_charge_time"}], "source": { "type": "storage", "source": "potty:player" } }
+]

@@ -1,0 +1,13 @@
+{
+    "type": "overworld",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [
+            ],
+            "structure_overrides": [],
+            "features": false,
+            "biome": "the_void"
+        }
+    }
+}

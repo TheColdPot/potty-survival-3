@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{stats:{damage:100,strength:100,crit_chance:30},rarity:3}"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!tool": {}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "Steel Pickaxe",
+                            "target": "item_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

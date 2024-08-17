@@ -1,0 +1,1 @@
+execute if score output uibase_common matches -15..15 run function uibase:click/rotation/y_rotation/0

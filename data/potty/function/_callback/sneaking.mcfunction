@@ -1,0 +1,1 @@
+scoreboard players add @s sneak_time 1

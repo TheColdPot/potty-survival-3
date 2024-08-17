@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "magma_cream",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{rarity:4,no_stats:1b,potty_id:\"pursuer\",wand:1b,spell_count:3}"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spells: {right_click: {name: '{\"translate\":\"potty.spell.pursuer.rc.name\",\"fallback\":\"Revengeful Eye\"}', description: '{\"translate\":\"potty.spell.pursuer.rc.description\",\"fallback\":\"Spawn an eye that tracks to mobs and goes through them.\"}', cost: 80, max_cast_time: 10, cooldown: -10}, hold_sneak: {name: '{\"translate\":\"potty.spell.pursuer.hs.name\",\"fallback\":\"Domino\"}', description: '{\"translate\":\"potty.spell.pursuer.hs.description\",\"fallback\":\"Zap up to 3 mobs nearby, then spill into multiple tracking projectiles.\"}', cost: 150, max_cast_time: 25, cooldown: -10}}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "potty.item.pursuer",
+                                "fallback": "Magma Pursuer"
+                            },
+                            "target": "item_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

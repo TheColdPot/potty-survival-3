@@ -1,0 +1,1 @@
+execute unless function potty.combat:health_bar/has_vehicle run kill @s

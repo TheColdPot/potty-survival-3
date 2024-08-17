@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "player_attack",
+        "arrow",
+        "potty:magic",
+        "potty.combat:ferocity"
+    ]
+}

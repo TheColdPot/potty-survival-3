@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{rarity:4,no_stats:1b,potty_id:\"ice_wand\",wand:1b,spell_count:3}"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spells: {right_click: {name: '{\"translate\":\"potty.spell.ice_wand.rc.name\",\"fallback\":\"Ice Toss\"}', description: '{\"translate\":\"potty.spell.ice_wand.rc.description\",\"fallback\":\"Throw a chunk of ice that damages nearby mobs on impact.\"}', cost: 80, max_cast_time: 30, cooldown: -10}, hold_sneak: { name: '{\"translate\":\"potty.spell.ice_wand.hs.name\",\"fallback\":\"Arctic Shockwave\"}', description: '{\"translate\":\"potty.spell.ice_wand.hs.description\",\"fallback\":\"Cast a deadly icy shockwave, damaging all mobs around you.\"}', cost: 775, max_cast_time: 50 }}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "potty.item.ice_wand",
+                                "fallback": "Ice Wand"
+                            },
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "reference",
+                            "name": "potty:feature/remove_tool"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

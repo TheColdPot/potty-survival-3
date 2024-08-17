@@ -1,0 +1,1 @@
+$execute at @s positioned 0 0 0 align xyz rotated as @s rotated ~ ~-30 positioned ^ ^ ^$(ice_toss_motion) summon marker run function potty:magic/spells/ice_wand/motion_helper

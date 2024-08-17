@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "stone_axe",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{stats:{damage:120,strength:50},rarity:2}"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!tool": {}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "Weathered Axe",
+                            "target": "item_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

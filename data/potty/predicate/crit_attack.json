@@ -1,0 +1,18 @@
+{
+    "condition": "value_check",
+    "range": {
+        "max": {
+            "type": "score",
+            "target": {
+                "type": "context",
+                "target": "this"
+            },
+            "score": "crit_chance"
+        }
+    },
+    "value": {
+        "type": "uniform",
+        "min": 0,
+        "max": 100
+    }
+}

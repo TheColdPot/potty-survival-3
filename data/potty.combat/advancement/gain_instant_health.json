@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "ciruno_baka": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "effects": {
+                                    "instant_health": {
+                                        "amplifier": 28
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:player_health/handle_change.post"
+    }
+}

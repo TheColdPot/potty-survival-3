@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "kill": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "tags": [
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty:_callback/gain_melee_combo"
+    }
+}

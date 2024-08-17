@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "shikanokonokonokokoshitantan": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "potty.combat:void_like"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:nature_source/void/occur.void"
+    }
+}

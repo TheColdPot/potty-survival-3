@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "player_attack": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:player_attack/player_attack"
+    }
+}

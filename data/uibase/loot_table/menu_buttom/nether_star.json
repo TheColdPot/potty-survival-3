@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "nether_star",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "Menu",
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "reference",
+                            "name": "uibase:feature/enable_right_click"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{menu:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
