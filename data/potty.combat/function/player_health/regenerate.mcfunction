@@ -6,7 +6,7 @@ scoreboard players set @s combat.timer 0
 
 scoreboard players set regen_health var 0
 scoreboard players operation regen_health var = @s max_health
-scoreboard players operation regen_health var /= HUNDRED var
+scoreboard players operation regen_health var /= #HUNDRED var
 scoreboard players add regen_health var 2
 scoreboard players operation @s health += regen_health var
 scoreboard players operation @s health < @s max_health

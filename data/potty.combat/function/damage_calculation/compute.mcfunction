@@ -5,7 +5,7 @@
 # scoreboard players operation @s final_uncrit *= @s strength
 # tellraw @a ["* STR: ", {"score":{"name":"@s","objective":"final_uncrit"}}]
 
-# scoreboard players operation @s final_uncrit /= HUNDRED var
+# scoreboard players operation @s final_uncrit /= #HUNDRED var
 # tellraw @a ["/100: ", {"score":{"name":"@s","objective":"final_uncrit"}}]
 
 # execute if score @s final_uncrit matches ..-1 run function potty.combat:damage_calculation/correct_overflow.uncrit
@@ -14,7 +14,7 @@
 # scoreboard players operation shifted_crit_damage var = @s crit_damage
 # scoreboard players add shifted_crit_damage var 100
 # scoreboard players operation @s final_crit *= shifted_crit_damage var
-# scoreboard players operation @s final_crit /= HUNDRED var
+# scoreboard players operation @s final_crit /= #HUNDRED var
 # execute if score @s final_crit matches ..-1 run function potty.combat:damage_calculation/correct_overflow.crit
 
 

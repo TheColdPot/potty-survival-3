@@ -1,7 +1,7 @@
 advancement revoke @s only potty.combat:player_hurt
 
 execute on attacker run scoreboard players operation received_damage var = @s mob_damage
-scoreboard players operation received_damage var *= HUNDRED var
+scoreboard players operation received_damage var *= #HUNDRED var
 scoreboard players operation shifted_defense var = @s defense 
 scoreboard players add shifted_defense var 100 
 scoreboard players operation received_damage var /= shifted_defense var

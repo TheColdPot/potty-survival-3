@@ -15,8 +15,8 @@ execute if score current_max_health var matches 1000000000.. run data merge stor
 scoreboard players operation max_health_after_point var = current_max_health var
 scoreboard players operation max_health_after_point var /= max_health_unit var
 scoreboard players operation max_health_before_point var = max_health_after_point var
-scoreboard players operation max_health_before_point var /= TEN var
-scoreboard players operation max_health_after_point var %= TEN var
+scoreboard players operation max_health_before_point var /= #TEN var
+scoreboard players operation max_health_after_point var %= #TEN var
 
 execute if score current_health var matches ..10000 run \
   return run data merge entity @s {text:'[{"nbt":"CustomName","entity":"@s","interpret":true}," ",[{"score":{"name":"current_health","objective":"var"},"color":"red"},"/",{"score":{"name":"max_health_before_point","objective":"var"}},".",{"score":{"name":"max_health_after_point","objective":"var"}},{"nbt":"max_health_unit","storage":"potty:combat"}]]'}
@@ -33,7 +33,7 @@ execute if score current_health var matches 1000000000.. run data merge storage 
 scoreboard players operation health_after_point var = current_health var
 scoreboard players operation health_after_point var /= health_unit var
 scoreboard players operation health_before_point var = health_after_point var
-scoreboard players operation health_before_point var /= TEN var
-scoreboard players operation health_after_point var %= TEN var
+scoreboard players operation health_before_point var /= #TEN var
+scoreboard players operation health_after_point var %= #TEN var
 
 data merge entity @s {text:'[{"nbt":"CustomName","entity":"@s","interpret":true}," ",[{"score":{"name":"health_before_point","objective":"var"},"color":"red"},".",{"score":{"name":"health_after_point","objective":"var"}},{"nbt":"health_unit","storage":"potty:combat"},"/",{"score":{"name":"max_health_before_point","objective":"var"}},".",{"score":{"name":"max_health_after_point","objective":"var"}},{"nbt":"max_health_unit","storage":"potty:combat"}]]'}

@@ -1,9 +1,9 @@
 execute store result score original_display_health var run data get entity @s Health
 
 scoreboard players operation @s display_health = @s health
-scoreboard players operation @s display_health *= TWENTY var
+scoreboard players operation @s display_health *= #TWENTY var
 scoreboard players operation @s display_health /= @s max_health
-scoreboard players operation @s display_health > SIGN_POSITIVE var
+scoreboard players operation @s display_health > #SIGN_POSITIVE var
 
 # tellraw @a [{"score":{"name": "@s", "objective": "display_health"}}," ",{"score":{"name":"original_display_health","objective": "var"}}]
 

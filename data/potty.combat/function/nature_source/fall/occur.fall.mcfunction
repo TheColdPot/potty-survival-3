@@ -7,8 +7,8 @@ execute if score @s combat.distance_fallen matches ..0 run return run scoreboard
 
 scoreboard players operation received_damage var = @s max_health
 scoreboard players operation received_damage var *= @s combat.distance_fallen
-scoreboard players operation received_damage var /= TWENTY var
-scoreboard players operation received_damage var /= HUNDRED var
+scoreboard players operation received_damage var /= #TWENTY var
+scoreboard players operation received_damage var /= #HUNDRED var
 scoreboard players reset @s combat.distance_fallen
 
 damage @s 0.01 fall at ~ ~ ~
