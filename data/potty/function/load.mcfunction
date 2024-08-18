@@ -95,7 +95,6 @@ scoreboard objectives add route.count dummy
 
 # self-loop functions
 # function potty:stats/regen_wrapper
-function potty:combat/apply_ferocity_wrapper
 
 #alias uuid globalitemhelper 1d1c1adf-b789-412b-b06d-ae22e9144c85
 
