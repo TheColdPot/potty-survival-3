@@ -27,6 +27,6 @@ attribute @s generic.fall_damage_multiplier base set 0
 # execute if entity @s[tag=combat.current_tick_attacked] run say 1
 tag @s remove combat.current_tick_attacked
 
-scoreboard players add @s combat.timer 1
-execute if score @s combat.timer matches 20.. run function potty.combat:player_health/regenerate
+scoreboard players add @s combat_timer 1
+execute if score @s combat_timer matches 20.. run function potty.combat:player_health/regenerate
 

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "woohoo": {
+            "trigger": "inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "potty.items:stats/inventory_changed.callback"
+    }
+}

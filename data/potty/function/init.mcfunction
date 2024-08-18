@@ -19,3 +19,4 @@ scoreboard objectives add timer dummy
 scoreboard objectives add uid dummy
 
 function potty.combat:init
+function potty.items:init

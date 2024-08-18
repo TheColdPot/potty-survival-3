@@ -8,7 +8,7 @@ execute as @a at @s run function potty.combat:tick.player
 
 # execute as @e[tag=combat.tick] at @s run function potty.combat:tick.entity
 
-scoreboard players add global combat.timer 1
+scoreboard players add global combat_timer 1
  
 execute if data storage potty:combat ferocity_list[0] run function potty.combat:ferocity/take_each
 

@@ -1,5 +1,5 @@
 function potty.combat:tick
-function potty:stats/sub_tick
+# function potty:stats/sub_tick
 function potty:deployables/sub_tick
 
 
