@@ -3,7 +3,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.health","storage":"potty:item"},[{"text":" ❤ ","color":"gray"}, {"translate":"potty.stats.health","fallback":"Health"}]]
+            [{"text":"Health","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.health","storage":"potty:item"},{"text":" ❤","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -22,7 +22,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.health","storage":"potty:item"},[{"text":" 🛡 ","color":"gray"}, {"translate":"potty.stats.defense","fallback":"Defense"}]]
+            [{"text":"Defense","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.defense","storage":"potty:item"},{"text":" 🛡","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -46,7 +46,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.damage","storage":"potty:item"},[{"text":" ⚔ ","color":"gray"}, {"text":"Damage"}]]
+            [{"text":"Damage","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.damage","storage":"potty:item"},{"text":" ⚔","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -65,7 +65,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.strength","storage":"potty:item"},[{"text":" 🍖 ","color":"gray"}, "Strength"]]
+            [{"text":"Strength","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.strength","storage":"potty:item"},{"text":" 🍖","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -84,7 +84,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.crit_chance","storage":"potty:item"},"%",[{"text":" ☠ ","color":"gray"}, "Critical Chance"]]
+            [{"text":"Crit Chance","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.crit_chance","storage":"potty:item"}, "%",{"text":" ☠","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -103,7 +103,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.crit_damage","storage":"potty:item"},"%",[{"text":" ☠ ","color":"gray"}, "Critical Damage"]]
+            [{"text":"Crit Damage","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.crit_damage","storage":"potty:item"}, "%",{"text":" ☠","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -122,7 +122,7 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.attack_distance","storage":"potty:item"},[{"text":" ⚓ ","color":"gray"}, "Attack Distance"]]
+            [{"text":"Attack Distance","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"red"},{"nbt":"target.components.minecraft:custom_data.stats.attack_distance","storage":"potty:item"},{"text":" ⚓","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -141,7 +141,8 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.ferocity","storage":"potty:item"},[{"text":" ♦ ","color":"gray"}, "Ferocity"]]
+            
+            [{"text":"Ferocity","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.ferocity","storage":"potty:item"},{"text": " ♦","color":"gray"}]]
         ],
         "entity": "this",
         "conditions": [
@@ -160,7 +161,8 @@
         "function": "set_lore",
         "mode": "append",
         "lore": [
-            [{"text":"+","color":"green","italic":false},{"nbt":"target.components.minecraft:custom_data.stats.attack_speed","storage":"potty:item"},"%",[{"text":" ⏳ ","color":"gray"}, "Attack Speed"]]
+            [{"text":"Attack Speed","italic":false,"color": "gray"}, ": ", [{"text":"+","color":"green"},{"nbt":"target.components.minecraft:custom_data.stats.attack_speed","storage":"potty:item"},{"text": " ⏳","color":"gray"}]]
+
         ],
         "entity": "this",
         "conditions": [
