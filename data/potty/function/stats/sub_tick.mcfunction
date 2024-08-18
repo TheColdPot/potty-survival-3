@@ -2,7 +2,7 @@
 # execute as @a if items entity @s container.* *[!custom_data~{lore_up_to_date:1b}] run function potty:stats/update_lore_filter
 
 
-execute as @e[type=item,nbt=!{Item:{components:{"minecraft:custom_data":{lore_up_to_date:1b}}}}] at @s run function potty:stats/update_lore_for_items
+# execute as @e[type=item,nbt=!{Item:{components:{"minecraft:custom_data":{lore_up_to_date:1b}}}}] at @s run function potty:stats/update_lore_for_items
 
 
 
