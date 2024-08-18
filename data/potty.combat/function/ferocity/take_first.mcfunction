@@ -1,14 +1,14 @@
 # say take first
 data modify storage potty:combat ferocity_stash set from storage potty:combat ferocity_list[0]
-execute store result score crit_chance var run data get storage potty:combat ferocity_stash.crit_chance
-execute store result score final_crit var run data get storage potty:combat ferocity_stash.crit
-execute store result score final_uncrit var run data get storage potty:combat ferocity_stash.uncrit
+execute store result score #crit_chance var run data get storage potty:combat ferocity_stash.crit_chance
+execute store result score #final_crit var run data get storage potty:combat ferocity_stash.crit
+execute store result score #final_uncrit var run data get storage potty:combat ferocity_stash.uncrit
 
 # data modify entity 706f7474-7973-4872-0-3 Owner set from storage potty:combat ferocity_stash.attacker
 # execute as 706f7474-7973-4872-0-3 on origin run tag @s add combat.attacker
 
-execute store result score attacker_uid var run data get storage potty:combat ferocity_stash.attacker_uid
-execute as @a if score @s uid = attacker_uid var run tag @s add combat.attacker
+execute store result score #attacker_uid var run data get storage potty:combat ferocity_stash.attacker_uid
+execute as @a if score @s uid = #attacker_uid var run tag @s add combat.attacker
 execute as @a[limit=1,tag=combat.attacker] at @s run tp 706f7474-7973-4872-0-3 @s
 
     # say @a[tag=combat.attacker]

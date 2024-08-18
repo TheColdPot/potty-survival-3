@@ -1,4 +1,4 @@
-scoreboard players operation received_damage var = final_uncrit var
+scoreboard players operation received_damage var = #final_uncrit var
 execute if predicate potty.combat:is_critical.var run scoreboard players operation received_damage var = final_crit var
 
 function potty.combat:damage_splash/ferocity
