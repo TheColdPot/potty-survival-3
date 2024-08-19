@@ -32,7 +32,7 @@ scoreboard players operation @s attack_speed_stat += #piece_stat var
 
 
 scoreboard players operation @s crit_chance = @s crit_chance_stat
-scoreboard players operation @s crit_damage = @s crit_damage_stat
+# scoreboard players operation @s crit_damage = @s crit_damage_stat
 scoreboard players operation @s ferocity = @s ferocity_stat
 scoreboard players operation @s strength = @s strength_stat
 scoreboard players operation @s attack_speed = @s attack_speed_stat
