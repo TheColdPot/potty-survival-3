@@ -1,4 +1,4 @@
-scoreboard players operation @s health -= received_damage var
+scoreboard players operation @s health -= #received_damage var
 
 execute store result score reflect_health var run attribute @s minecraft:generic.max_health get 1
 scoreboard players operation reflect_health var *= @s health

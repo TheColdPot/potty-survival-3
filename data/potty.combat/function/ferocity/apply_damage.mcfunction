@@ -1,9 +1,9 @@
-scoreboard players operation received_damage var = #final_uncrit var
-execute if predicate potty.combat:is_critical.var run scoreboard players operation received_damage var = final_crit var
+scoreboard players operation #received_damage var = #final_uncrit var
+execute if predicate potty.combat:is_critical.var run scoreboard players operation #received_damage var = final_crit var
 
 function potty.combat:damage_splash/ferocity
 
-scoreboard players operation @s health -= received_damage var
+scoreboard players operation @s health -= #received_damage var
 
 
 execute store result score #reflect_health var run attribute @s minecraft:generic.max_health get 1
