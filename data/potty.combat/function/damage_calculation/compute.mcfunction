@@ -28,7 +28,9 @@ execute store result storage potty:combat damage_amplifier float 0.01 run scoreb
 function potty.combat:damage_calculation/apply_amplifier with storage potty:combat
 execute store result score @s final_uncrit run data get storage potty:combat final_damage
 
-execute store result storage potty:combat damage_amplifier float 0.01 run scoreboard players get @s crit_damage
+scoreboard players operation #shifted_crit_damage var = @s crit_damage_stat
+scoreboard players add #shifted_crit_damage var 100
+execute store result storage potty:combat damage_amplifier float 0.01 run scoreboard players get #shifted_crit_damage var
 function potty.combat:damage_calculation/apply_amplifier with storage potty:combat
 execute store result score @s final_crit run data get storage potty:combat final_damage
 
