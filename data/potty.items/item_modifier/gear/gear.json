@@ -10,7 +10,8 @@
     {
         "function": "set_components",
         "components": {
-            "unbreakable": { "show_in_tooltip": false }
+            "!max_damage": {},
+            "max_stack_size": 1
         }
     },
     {
