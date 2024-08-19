@@ -6,6 +6,16 @@ data modify storage potty:item mainhand_stats set from entity @s SelectedItem.co
 execute store result score @s weapon_damage run data get storage potty:item mainhand_stats.damage
 
 
+execute store result score #piece_stat var run data get storage potty:item mainhand_stats.health
+scoreboard players operation @s health_stat = @s health_armor
+scoreboard players operation @s health_stat += #piece_stat var
+
+
+execute store result score #piece_stat var run data get storage potty:item mainhand_stats.defense
+scoreboard players operation @s defense_stat = @s defense_armor
+scoreboard players operation @s defense_stat += #piece_stat var
+
+
 execute store result score #piece_stat var run data get storage potty:item mainhand_stats.strength
 scoreboard players operation @s strength_stat = @s strength_armor
 scoreboard players operation @s strength_stat += #piece_stat var
@@ -36,5 +46,7 @@ scoreboard players operation @s crit_chance = @s crit_chance_stat
 scoreboard players operation @s ferocity = @s ferocity_stat
 scoreboard players operation @s strength = @s strength_stat
 scoreboard players operation @s attack_speed = @s attack_speed_stat
+scoreboard players operation @s max_health = @s health_stat
+scoreboard players operation @s defense = @s defense_stat
 
 # say 1
