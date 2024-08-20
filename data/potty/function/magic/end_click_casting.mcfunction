@@ -23,6 +23,7 @@ playsound block.amethyst_block.break player @a ~ ~ ~ 1 1.3
 # LATER IT SETS CAST TIME.
 # SO I CAN MODIFY IT IN SPELLS.
 # I DONT GIVE A FUCK.
+execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"soul_wand"}}}} run function potty:magic/spells/soul_release/test
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"ice_wand"}}}} run function potty:magic/spells/ice_wand/ice_toss
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"hyperion"}}}} run function potty:magic/spells/hyperion/wither_impact/test
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"precursor_staff"}}}} run function potty:magic/spells/precursor_staff/beam/test

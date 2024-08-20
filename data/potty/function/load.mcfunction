@@ -45,6 +45,10 @@ scoreboard objectives add base_sweeping_range dummy
 scoreboard objectives add sweeping_range dummy
 scoreboard objectives add gamemode dummy
 
+scoreboard objectives add entity_pos dummy
+scoreboard objectives add motion_tick dummy
+
+
 
 scoreboard objectives add __spell_mana_cost dummy
 scoreboard objectives add received_magic_damage dummy
