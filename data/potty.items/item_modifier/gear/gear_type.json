@@ -11,28 +11,7 @@
         "conditions": [
             {
                 "condition": "value_check",
-                "range": 1,
-                "value": {
-                    "type": "storage",
-                    "storage": "potty:item",
-                    "path": "target.components.minecraft:custom_data.gear_type"
-                }
-            }
-        ]
-    },
-    {
-        "function": "set_lore",
-        "mode": "insert",
-        "offset": 0,
-        "lore": [
-            [
-                {"text":"🗡 Pickaxe","italic":false,"color":"dark_gray"}
-            ]
-        ],
-        "conditions": [
-            {
-                "condition": "value_check",
-                "range": 2,
+                "range": 100,
                 "value": {
                     "type": "storage",
                     "storage": "potty:item",
@@ -51,7 +30,7 @@
         "conditions": [
             {
                 "condition": "value_check",
-                "range": 3,
+                "range": 103,
                 "value": {
                     "type": "storage",
                     "storage": "potty:item",
@@ -70,7 +49,7 @@
         "conditions": [
             {
                 "condition": "value_check",
-                "range": 4,
+                "range": 104,
                 "value": {
                     "type": "storage",
                     "storage": "potty:item",
@@ -84,12 +63,12 @@
         "mode": "insert",
         "offset": 0,
         "lore": [
-            {"text":"🗡 Axe","italic":false,"color":"dark_gray"}
+            {"text":"🗡 Claymore","italic":false,"color":"dark_gray"}
         ],
         "conditions": [
             {
                 "condition": "value_check",
-                "range": 5,
+                "range": 105,
                 "value": {
                     "type": "storage",
                     "storage": "potty:item",
