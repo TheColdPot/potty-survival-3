@@ -1,7 +1,7 @@
 scoreboard players operation @s var = arrow_uid var
-scoreboard players operation @s crit_chance = #crit_chance var
-scoreboard players operation @s final_crit = #final_crit var
-scoreboard players operation @s final_uncrit = #final_uncrit var
+scoreboard players operation @s crit_chance = crit_chance var
+scoreboard players operation @s final_crit = final_crit var
+scoreboard players operation @s final_uncrit = final_uncrit var
 # Still confusing... idc
 scoreboard players operation @s ferocity = source_ferocity var
 data modify entity @s data.origin set from entity @s UUID

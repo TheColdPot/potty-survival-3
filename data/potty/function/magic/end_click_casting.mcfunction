@@ -25,7 +25,7 @@ playsound block.amethyst_block.break player @a ~ ~ ~ 1 1.3
 # I DONT GIVE A FUCK.
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"soul_wand"}}}} run function potty:magic/spells/soul_release/test
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"ice_wand"}}}} run function potty:magic/spells/ice_wand/ice_toss
-execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"hyperion"}}}} run function potty:magic/spells/hyperion/wither_impact/test
+execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"hyperion"}}}} run function potty:magic/spells/sword_sweep/trigger
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"precursor_staff"}}}} run function potty:magic/spells/precursor_staff/beam/test
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"adams_hammer"}}}} run function potty:magic/spells/adams_hammer/earthquake/test
 execute if data storage potty:player {previous_slot:{components:{"minecraft:custom_data":{potty_id:"pursuer"}}}} run function potty:magic/spells/pursuer/summon_skull

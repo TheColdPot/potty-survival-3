@@ -1,0 +1,2 @@
+execute as @e[tag=speed_exe,nbt={PortalCooldown:0}] at @s run function example_pack:setup/canset/gwool/exe
+execute if entity @e[tag=speed_exe] run schedule function example_pack:setup/canset/gwool/exe_test 1t

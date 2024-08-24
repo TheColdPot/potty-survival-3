@@ -1,6 +1,6 @@
 #> potty.combat:damage_splash/critical.entity
 
-execute store result storage potty:combat splash_text int 1 run scoreboard players get #received_damage var
+execute store result storage potty:combat splash_text int 1 run scoreboard players get received_damage var
 data modify storage potty:combat splash_text_split set value []
 data modify storage potty:combat splash_text_split append string storage potty:combat splash_text 0 1
 data modify storage potty:combat splash_text_split append string storage potty:combat splash_text 1 2

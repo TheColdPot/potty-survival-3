@@ -1,4 +1,4 @@
-# scoreboard players operation @s final_uncrit *= #SIGN_NEGATIVE var
+# scoreboard players operation @s final_uncrit *= SIGN_NEGATIVE var
 # tellraw @a ["* -1: ", {"score":{"name":"@s","objective":"final_uncrit"}}]
 
 scoreboard players add @s final_uncrit 42949673

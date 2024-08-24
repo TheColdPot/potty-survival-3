@@ -1,0 +1,2 @@
+execute if entity @a[advancements={example_pack:place_wool=true},scores={setup_wool_open=1}] if score set setup_wool matches 1 run function example_pack:setup/canset/gwool/1
+advancement revoke @a[advancements={example_pack:place_wool=true}] only example_pack:place_wool
