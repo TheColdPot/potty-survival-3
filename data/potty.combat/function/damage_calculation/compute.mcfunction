@@ -20,11 +20,13 @@
 
 # execute if score @s final_crit matches ..-1 run scoreboard players set @s final_crit 2147483647
 # execute if score @s final_uncrit matches ..-1 run scoreboard players set @s final_uncrit 2147483647
-
+# say 1
 ## so i finally gave up pure scoreboard, huh?
 execute store result storage potty:combat final_damage int 1 run scoreboard players get @s weapon_damage
 
-execute store result storage potty:combat damage_amplifier float 0.01 run scoreboard players get @s strength
+scoreboard players operation #shifted_strength var = @s strength_stat
+scoreboard players add #shifted_strength var 100
+execute store result storage potty:combat damage_amplifier float 0.01 run scoreboard players get #shifted_strength var
 function potty.combat:damage_calculation/apply_amplifier with storage potty:combat
 execute store result score @s final_uncrit run data get storage potty:combat final_damage
 

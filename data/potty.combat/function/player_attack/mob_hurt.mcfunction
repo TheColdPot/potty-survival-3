@@ -1,4 +1,5 @@
 # say 1
+# execute on attacker run say 1
 # execute if function potty.combat:player_attack/melee/test_predicate run say 1
 execute if function potty.combat:player_attack/melee/test_predicate run function potty.combat:player_attack/melee/perform
 

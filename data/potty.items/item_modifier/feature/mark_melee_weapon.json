@@ -1,0 +1,21 @@
+[
+    {
+        "function": "set_enchantments",
+        "add": true,
+        "enchantments": {
+            "potty.combat:trigger": 1
+        }
+    },
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "id": "potty.combat:add_melee_damage",
+                "amount": 1,
+                "attribute": "generic.attack_damage",
+                "operation": "add_value",
+                "slot": "any"
+            }
+        ]
+    }
+]

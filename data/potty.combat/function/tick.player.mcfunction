@@ -17,6 +17,8 @@ attribute @s[scores={attack_countdown=..0}] generic.attack_damage modifier remov
 attribute @s generic.armor modifier add potty.combat:remove_armor -114514 add_value
 attribute @s generic.armor_toughness modifier add potty.combat:remove_armor 114514 add_value
 attribute @s generic.attack_damage modifier add potty.combat:remove_damage -0.9999 add_multiplied_total
+attribute @s generic.attack_damage base set 0
+attribute @s generic.attack_damage modifier remove minecraft:base_attack_damage
 attribute @s generic.fall_damage_multiplier base set 0
 
 # execute as @e[type=text_disptag=combat.damage_splash] run function potty.combat:damage_splash/tick.damage_splash

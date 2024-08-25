@@ -8,6 +8,38 @@
         "name": "potty.items:gear/stats"
     },
     {
+        "function": "reference",
+        "name": "potty.items:feature/mark_melee_weapon",
+        "conditions": [
+            {
+                "condition": "any_of",
+                "terms": [
+                    {
+                        "condition": "value_check",
+                        "range": {
+                            "min": 100,
+                            "max": 199
+                        },
+                        "value": {
+                            "type": "storage",
+                            "storage": "potty:item",
+                            "path": "target.components.minecraft:custom_data.gear_type"
+                        }
+                    },
+                    {
+                        "condition": "value_check",
+                        "range": 1,
+                        "value": {
+                            "type": "storage",
+                            "storage": "potty:item",
+                            "path": "target.components.minecraft:custom_data.is_sword"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "function": "set_components",
         "components": {
             "!max_damage": {},
@@ -25,5 +57,4 @@
         "function": "set_custom_data",
         "tag": "{request_lore: 0b}"
     }
-    
 ]

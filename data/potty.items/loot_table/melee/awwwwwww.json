@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{stats:{damage:268435456,ferocity:300},rarity:4,gear_type:4b,request_lore:true}"
+                            "tag": "{stats:{damage:268435456,ferocity:300},rarity:4,gear_type:104b,request_lore:true}"
                         },
                         {
                             "function": "set_name",
