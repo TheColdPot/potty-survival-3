@@ -1,4 +1,5 @@
 {
     "workbench.iconTheme": "mc-dp-icons",
-    "spyglassmc.trace.server": "off"
+    "spyglassmc.trace.server": "off",
+    "files.eol": "\r\n"
 }
