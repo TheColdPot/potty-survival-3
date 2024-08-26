@@ -15,7 +15,7 @@ data modify storage potty:combat splash_text_split append string storage potty:c
 data modify storage potty:combat splash_text_split append string storage potty:combat splash_text 10 11
 data modify storage potty:combat splash_text_split append string storage potty:combat splash_text 11 12
 execute store result score splash_length var run data get storage potty:combat splash_text_split
-execute if score splash_length var matches 11.. run data modify storage potty:combat splash_text_split insert -11 value ','
+execute if score splash_length var matches 10.. run data modify storage potty:combat splash_text_split insert -10 value ','
 execute if score splash_length var matches 7.. run data modify storage potty:combat splash_text_split insert -7 value ','
 execute if score splash_length var matches 4.. run data modify storage potty:combat splash_text_split insert -4 value ','
 
