@@ -1,0 +1,1 @@
+tellraw @a [{"translate":"potty.empty","fallback":"It seems you do not have the resource pack loaded. "},{"translate":"potty.empty","fallback":"Click here to download @ GitHub.","clickEvent": {"action": "open_url","value": "https://github.com/TheColdPot/potty-survival-3"},"underlined":true}]
