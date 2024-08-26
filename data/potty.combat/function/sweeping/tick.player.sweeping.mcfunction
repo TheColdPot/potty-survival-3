@@ -1,0 +1,1 @@
+execute if entity @s[tag=combat.sweeping.thrust] run function potty.combat:sweeping/thrust/shadow_effect

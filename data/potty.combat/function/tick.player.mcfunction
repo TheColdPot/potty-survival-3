@@ -32,3 +32,4 @@ tag @s remove combat.current_tick_attacked
 scoreboard players add @s combat_timer 1
 execute if score @s combat_timer matches 20.. run function potty.combat:player_health/regenerate
 
+function potty.combat:sweeping/tick.player.sweeping
