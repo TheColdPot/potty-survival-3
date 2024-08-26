@@ -1,7 +1,7 @@
 {
     "anvil_cost": 0,
     "weight": 1,
-    "description": {"text":"Applied Internal Combat Trigger","italic":true,"color":"dark_gray"},
+    "description": {"text":""},
     "supported_items": "#swords",
     "min_cost": {
         "base": 1,
@@ -12,7 +12,7 @@
         "per_level_above_first": 1
     },
     "slots": [
-        "any"
+        "mainhand"
     ],
     "effects": {
         "post_attack": [
