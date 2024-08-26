@@ -1,0 +1,9 @@
+{
+    "potty.stat.health": "生命",
+    "potty.stat.damage": "伤害",
+    "potty.stat.strength": "力量",
+    "potty.stat.ferocity": "猛攻",
+    "potty.stat.attack_speed": "攻速加成",
+    "potty.stat.crit_chance": "暴击概率",
+    "potty.stat.crit_damage": "暴击伤害"
+}
