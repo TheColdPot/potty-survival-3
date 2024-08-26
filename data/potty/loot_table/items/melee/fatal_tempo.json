@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "iron_sword",
+                    "name": "golden_sword",
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{request_lore:true,stats:{damage:1000,strength:250,crit_damage:200,crit_chance:50,attack_speed:400,ferocity:1000},rarity:4,gear_type:4b}"
+                            "tag": "{request_lore:true,stats:{damage:1000,strength:250,crit_damage:200,crit_chance:50,attack_speed:400,ferocity:1000},rarity:4,gear_type:104b,request_lore:1b}"
                         },
                         {
                             "function": "set_name",

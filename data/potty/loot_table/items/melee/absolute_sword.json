@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{stats:{damage:500},rarity:3}"
+                            "tag": "{stats:{damage:66666,strength:999,crit_damage:800,crit_chance:100},rarity:3,gear_type:105b,request_lore:1b}"
                         },
                         {
                             "function": "set_name",
