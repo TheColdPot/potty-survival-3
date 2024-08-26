@@ -22,4 +22,28 @@ $$
 
 The mechanism also applies on mobs, but damage caused by mobs is gauranteed not to be critical.
 
-## Combo, Class & Faction
+## Attack Speed
+Your attack cooldown starts at 6t (0.3 secs). With attack cooldown stats, your attack cooldown is given by:
+
+$$
+\text{Cooldown} = \left\lfloor\frac{600}{1+\text{Attack Speed}}\right\rfloor
+$$
+
+Note that the floor function is due to Minecraft itself.
+
+Technically, if you have a attack speed of over 500, you have no attack cooldown.
+
+Your attack cooldown can be found in the table.
+
+| Atk. Speed      | Atk. Cooldown |
+| --------------- | ------------- |
+| 0               | 6t = 0.3s     |
+| 0..20           | 5t = 0.25s    |
+| 20..50          | 4t = 0.2s     |
+| 50..100         | 3t = 0.15s    |
+| 100..200        | 2t = 0.1s     |
+| 200..500        | 1t = 0.05s    |
+| > 500           | No CD         |
+
+## Combo Skills, Class & Faction
+WIP
