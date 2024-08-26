@@ -1,5 +1,8 @@
 # say 1
+
 execute on attacker if items entity @s weapon.mainhand bow run return fail
+execute on attacker run function potty.combat:player_attack/start_cooldown
+
 
 tag @s add combat.victim
 # assume setup

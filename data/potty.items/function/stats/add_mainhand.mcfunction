@@ -41,11 +41,17 @@ scoreboard players operation @s attack_speed_stat = @s attack_speed_armor
 scoreboard players operation @s attack_speed_stat += #piece_stat var
 
 
+scoreboard players set @s attack_cooldown 600
+scoreboard players operation #shifted_attack_speed var = @s attack_speed_stat
+scoreboard players add #shifted_attack_speed var 100
+scoreboard players operation @s attack_cooldown /= #shifted_attack_speed var
+
+
 scoreboard players operation @s crit_chance = @s crit_chance_stat
 # scoreboard players operation @s crit_damage = @s crit_damage_stat
 scoreboard players operation @s ferocity = @s ferocity_stat
 scoreboard players operation @s strength = @s strength_stat
-scoreboard players operation @s attack_speed = @s attack_speed_stat
+# scoreboard players operation @s attack_speed = @s attack_speed_stat
 scoreboard players operation @s max_health = @s health_stat
 scoreboard players operation @s defense = @s defense_stat
 
