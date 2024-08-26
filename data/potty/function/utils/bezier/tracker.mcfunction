@@ -79,9 +79,11 @@ execute store result entity @s Pos[0] double 0.001 run scoreboard players get p.
 execute store result entity @s Pos[1] double 0.001 run scoreboard players get p.1 entity_pos
 execute store result entity @s Pos[2] double 0.001 run scoreboard players get p.2 entity_pos
 
-#execute at @s run playsound minecraft:entity.ender_dragon.ambient player @a ~ ~ ~ 0.2 0.1
+execute at @s run playsound minecraft:entity.bee.pollinate player @a ~ ~ ~ 2 1
 execute at @s run particle minecraft:dust{color:[1,0,1],scale:1} ~ ~ ~ 0 0 0 0 1 force
 #execute at @s run particle soul ~ ~ ~ 0 0 0 0 1 force
 
-execute if score @s motion_tick matches 0..9999 run schedule function potty:magic/spells/soul_release/sustain 1t
+execute if score @s motion_tick matches 0..9999 run schedule function potty:utils/bezier/sustain 1t
+execute if score @s motion_tick matches 10000.. run playsound minecraft:entity.item.pickup player @a ~ ~ ~ 1 0.1
+execute if score @s motion_tick matches 10000.. run particle minecraft:witch ~ ~ ~ 0 0 0 0.5 10
 execute if score @s motion_tick matches 10000.. run kill @s
