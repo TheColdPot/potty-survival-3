@@ -23,15 +23,15 @@ execute if score #current_health var matches ..10000 run \
 
 
 execute if score #current_health var matches 1000.. run data merge storage potty:combat {health_unit:"k"}
-execute if score #current_health var matches 1000.. run scoreboard players set health_unit var 100
-execute if score #current_health var matches 1000000.. run scoreboard players set health_unit var 100000
+execute if score #current_health var matches 1000.. run scoreboard players set #health_unit var 100
+execute if score #current_health var matches 1000000.. run scoreboard players set #health_unit var 100000
 execute if score #current_health var matches 1000000.. run data merge storage potty:combat {health_unit:"M"}
-execute if score #current_health var matches 1000000000.. run scoreboard players set health_unit var 100000000
+execute if score #current_health var matches 1000000000.. run scoreboard players set #health_unit var 100000000
 execute if score #current_health var matches 1000000000.. run data merge storage potty:combat {health_unit:"B"}
 
 # scoreboard players operation #health_after_point var = #current_health var
 scoreboard players operation #health_after_point var = #current_health var
-scoreboard players operation #health_after_point var /= health_unit var
+scoreboard players operation #health_after_point var /= #health_unit var
 scoreboard players operation #health_after_point var = #health_after_point var
 scoreboard players operation #health_after_point var /= #TEN var
 scoreboard players operation #health_after_point var %= #TEN var
