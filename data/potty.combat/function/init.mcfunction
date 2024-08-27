@@ -10,7 +10,11 @@ scoreboard objectives add attack_cooldown dummy
 scoreboard objectives add display_health dummy
 scoreboard objectives add combat.distance_fallen minecraft.custom:fall_one_cm
 
-
+scoreboard objectives add combo_progress dummy
+scoreboard objectives add combo_max dummy
+scoreboard objectives add combo_stacks dummy
+scoreboard objectives add combo_percentage dummy
+scoreboard objectives add combo_uncharge_timer dummy
 
 # scoreboard objectives add received_damage dummy
 #declare storage potty:combat

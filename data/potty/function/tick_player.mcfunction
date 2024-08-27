@@ -7,7 +7,7 @@ scoreboard players set @s __sneak_trigger 0
 execute if entity @s[tag=sneaking] run function potty:_callback/sneaking
 
 
-execute unless score disable_actionbar debug.flags matches 1 run function potty:stats/actionbar/switch
+# execute unless score disable_actionbar debug.flags matches 1 run function potty:stats/actionbar/switch
 
 
 execute unless score @s uid matches -2147483648..2147483647 run function potty:allocate_uid.player

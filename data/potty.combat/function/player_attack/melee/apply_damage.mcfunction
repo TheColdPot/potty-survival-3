@@ -10,6 +10,7 @@ execute if score @s health matches ..-1 run scoreboard players set @s health 0
 # schedule ferocity here
 
 function potty.combat:player_attack/post_attack
+execute on attacker run function potty.combat:sweeping/charge
 
 execute if score @s health matches 0 run function potty.combat:player_attack/handle_death
 # say 1

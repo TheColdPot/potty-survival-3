@@ -11,8 +11,10 @@ scoreboard players set #HUNDRED var 100
 scoreboard players set #FIVE var 5
 scoreboard players set #TEN var 10
 scoreboard players set #TWENTY var 20
+scoreboard players set #FIFTEEN var 15
 scoreboard players set #INT_MAX var 2147483647
 scoreboard players set #SIGN_NEGATIVE var -1
+scoreboard players set #ZERO var 0
 scoreboard players set #SIGN_POSITIVE var 1
 
 scoreboard objectives add timer dummy

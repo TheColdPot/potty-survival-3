@@ -3,14 +3,6 @@
 #declare storage potty:effects
 #declare storage potty:combat
 
-scoreboard objectives add melee_kill_combo dummy
-scoreboard objectives add ranged_hit_combo dummy
-scoreboard objectives add melee_kill_combo_power dummy
-scoreboard objectives add ranged_hit_combo_power dummy
-scoreboard objectives add lose_melee_kill_combo_time dummy
-scoreboard objectives add lose_ranged_hit_combo_time dummy
-scoreboard objectives add lose_melee_kill_combo_left_time dummy
-scoreboard objectives add lose_ranged_hit_combo_left_time dummy
 scoreboard objectives add display_combo_left_time dummy
 scoreboard objectives add mainhand_sword_held_time dummy
 
