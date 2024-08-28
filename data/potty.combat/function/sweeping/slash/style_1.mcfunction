@@ -6,4 +6,4 @@ execute as @s at @s anchored eyes positioned ^-2 ^-2 ^2 run summon armor_stand ~
 
 function potty:utils/arc/trigger
 
-playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1
+# playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1

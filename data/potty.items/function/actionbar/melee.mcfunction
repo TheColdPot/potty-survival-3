@@ -28,19 +28,19 @@ execute if score @s combo_stacks matches 0 run title @s actionbar ["", [{"score"
 
 execute if score @s combo_stacks matches 1 run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
   \
-  [{"text":"➊","color":"yellow"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"yellow"},{"storage":"potty:actionbar","nbt":"bar_right","color":"dark_gray"}]], \
+  [{"text":"➊","color":"yellow"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"yellow"},{"storage":"potty:actionbar","nbt":"bar_right","color":"gray"}]], \
   \
   "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
 
 execute if score @s combo_stacks matches 2 run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
   \
-  [{"text":"➋","color":"gold"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"gold"},{"storage":"potty:actionbar","nbt":"bar_right","color":"dark_gray"}]], \
+  [{"text":"➋","color":"gold"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"gold"},{"storage":"potty:actionbar","nbt":"bar_right","color":"yellow"}]], \
   \
   "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
 
 execute if score @s combo_stacks matches 3 if score @s combo_progress < @s combo_max run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
   \
-  [{"text":"➌","color":"red"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"red"},{"storage":"potty:actionbar","nbt":"bar_right","color":"dark_gray"}]], \
+  [{"text":"➌","color":"red"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"red"},{"storage":"potty:actionbar","nbt":"bar_right","color":"gold"}]], \
   \
   "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
 

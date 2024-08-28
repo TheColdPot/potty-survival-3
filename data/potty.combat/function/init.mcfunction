@@ -15,6 +15,7 @@ scoreboard objectives add combo_max dummy
 scoreboard objectives add combo_stacks dummy
 scoreboard objectives add combo_percentage dummy
 scoreboard objectives add combo_uncharge_timer dummy
+scoreboard objectives add latest_sweep_time dummy
 
 # scoreboard objectives add received_damage dummy
 #declare storage potty:combat

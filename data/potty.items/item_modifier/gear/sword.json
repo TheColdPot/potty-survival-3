@@ -6,5 +6,9 @@
     {
         "function": "reference",
         "name": "potty.items:feature/enable_right_click"
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{is_sword:true}"
     }
 ]

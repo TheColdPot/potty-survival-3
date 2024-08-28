@@ -17,4 +17,4 @@ gamemode spectator @s[scores={gamemode=3}]
 tp @s ~ ~ ~
 
 execute anchored eyes run particle flash ^ ^ ^3 0 0 0 0 1
-playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1
+# playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1

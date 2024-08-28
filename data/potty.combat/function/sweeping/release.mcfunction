@@ -1,0 +1,9 @@
+advancement revoke @s only potty.combat:trigger_sweep
+execute if score @s latest_sweep_time = #global_time var run return run function potty.combat:sweeping/sync_time
+
+function potty.combat:sweeping/sync_time
+
+execute store result score #gear_type var run data get entity @s SelectedItem.components."minecraft:custom_data".gear_type
+
+
+execute if score @s combo_stacks matches 1.. run function potty.combat:sweeping/switch_sweep
