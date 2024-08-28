@@ -1,0 +1,10 @@
+[
+    {
+        "function": "reference",
+        "name": "potty.items:feature/mark_melee_weapon"
+    },
+    {
+        "function": "reference",
+        "name": "potty.items:feature/enable_right_click"
+    }
+]

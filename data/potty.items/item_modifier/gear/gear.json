@@ -9,7 +9,7 @@
     },
     {
         "function": "reference",
-        "name": "potty.items:feature/mark_melee_weapon",
+        "name": "potty.items:gear/sword",
         "conditions": [
             {
                 "condition": "any_of",
