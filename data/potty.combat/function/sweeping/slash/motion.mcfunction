@@ -6,7 +6,7 @@ scoreboard players set @s[gamemode=adventure] gamemode 2
 scoreboard players set @s[gamemode=spectator] gamemode 3
 
 gamemode creative
-execute positioned ~ ~1000 ~ anchored eyes positioned ^ ^ ^-8 summon end_crystal run damage @s 1
+execute positioned ~ ~1000 ~ anchored eyes positioned ^ ^ ^10.5 summon end_crystal run damage @s 1
 
 gamemode survival @s[scores={gamemode=0}]
 gamemode adventure @s[scores={gamemode=2}]

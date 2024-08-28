@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_sword",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{stats:{damage:1,attack_speed:600},rarity:4,gear_type:103b,request_lore:true}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "Cold Dagger (for test)",
+                            "target": "item_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

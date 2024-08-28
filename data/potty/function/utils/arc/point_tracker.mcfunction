@@ -35,6 +35,7 @@ execute store result entity @s Pos[2] double 0.001 run scoreboard players get p.
 
 execute as @n[type=marker,tag=arc_rotation_tracker] at @s facing entity @n[type=marker,tag=arc_point] feet anchored eyes positioned ^ ^ ^ run function potty:utils/arc/rotation_beam
 
+tag @e[tag=particle_target,distance=..10] remove particle_target
 #execute at @s run particle soul ~ ~ ~ 0 0 0 0 1 force
 
 execute if score @s motion_tick matches 0..9999 run function potty:utils/arc/point_tracker

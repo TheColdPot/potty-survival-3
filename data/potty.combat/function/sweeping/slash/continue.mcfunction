@@ -1,0 +1,1 @@
+execute as @a[scores={motion_tick=1..}] run function potty.combat:sweeping/slash/trigger
