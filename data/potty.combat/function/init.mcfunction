@@ -11,10 +11,9 @@ scoreboard objectives add display_health dummy
 scoreboard objectives add combat.distance_fallen minecraft.custom:fall_one_cm
 
 scoreboard objectives add combo_progress dummy
-scoreboard objectives add combo_max dummy
-scoreboard objectives add combo_stacks dummy
-scoreboard objectives add combo_percentage dummy
-scoreboard objectives add combo_uncharge_timer dummy
+scoreboard players set #melee_charge_max var 150
+scoreboard objectives add melee_charge_stacks dummy
+scoreboard objectives add melee_charge_timer dummy
 scoreboard objectives add latest_sweep_time dummy
 
 # scoreboard objectives add received_damage dummy
