@@ -1,4 +1,4 @@
-function potty.combat:sweeping/decrease_stage
+function potty.combat:sweeping/decrease_stack
 playsound entity.ender_dragon.shoot player @a ~ ~ ~ 1 2
 
 execute if score #gear_type var matches 104 run function potty.combat:sweeping/slash/initial
