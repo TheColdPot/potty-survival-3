@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=tracker] at @s run function potty:magic/spells/soul_release/tracker

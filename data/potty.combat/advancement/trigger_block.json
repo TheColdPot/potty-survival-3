@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "uh": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{is_sword: true,gear_type: 105b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:sweeping/block"
+    }
+}

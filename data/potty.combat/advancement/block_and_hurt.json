@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "go": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        
+                    }
+                },
+                "player": [
+                    {
+                        "entity": "this",
+                        "condition": "entity_properties",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "custom_data": "{is_sword: true,gear_type: 105b}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "potty.combat:sweeping/block/trigger"
+    }
+}

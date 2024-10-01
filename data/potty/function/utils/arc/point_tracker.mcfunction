@@ -1,4 +1,4 @@
-scoreboard players add @s motion_tick 200
+scoreboard players add @s motion_tick 100
 
 execute store result score object.0 entity_pos run data get entity @s data.object[0]
 execute store result score object.1 entity_pos run data get entity @s data.object[1]
