@@ -1,6 +1,6 @@
 function uibase:ui/main/text_merge_template
 # 编号
-scoreboard players set @s uibase_order 1001
+scoreboard players set @s uibase_order 101
 
 # 骑 Menu
 ride @s mount @n[type=minecraft:block_display,tag=menu_chair,distance=..1]

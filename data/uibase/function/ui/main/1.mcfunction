@@ -8,7 +8,7 @@ execute on passengers if entity @s[type=!player,scores={uibase_order=100..}] run
 
 execute on passengers if entity @s[type=!player,scores={uibase_order=1..99}] if function uibase:ui/main/storager_test run function uibase:ui/main/kill_text_storager
 execute on passengers if entity @s[type=!player,scores={uibase_order=2}] run function uibase:ui/main/text_storager
-execute on passengers if entity @s[type=!player,scores={uibase_order=2}] run data modify entity @s text set value '[{"text":"❖ Information       ➜","color":"gold"}]'
+execute on passengers if entity @s[type=!player,scores={uibase_order=2}] run data modify entity @s text set value '[{"text":"❖ 信息                ➜","color":"gold"}]'
 execute summon text_display run function uibase:ui/main/summon/information/0
 execute summon text_display run function uibase:ui/main/summon/information/1
 execute summon text_display run function uibase:ui/main/summon/information/2

@@ -1,7 +1,7 @@
 function uibase:ui/main/merge_template
 data merge entity @s {alignment:"left",width:10,height:10,line_width:70,default_background:true}
 # 编号
-scoreboard players set @s uibase_order 1000
+scoreboard players set @s uibase_order 200
 
 # 骑 Menu
 ride @s mount @n[type=minecraft:block_display,tag=menu_chair,distance=..1]

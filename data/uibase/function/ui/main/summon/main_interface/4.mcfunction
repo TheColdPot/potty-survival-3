@@ -14,7 +14,7 @@ execute store result score rotation_res uibase_common run function uibase:utils/
 execute store result entity @s Rotation[0] float 1 run scoreboard players get rotation_res uibase_common
 execute on passengers store result entity @s Rotation[0] float 1 run scoreboard players get rotation_res uibase_common
 
-data modify entity @s text set value '[{"text":"❖ Warp                ","color":"gold"}]'
+data modify entity @s text set value '[{"text":"❖ 缩地                  ","color":"gold"}]'
 data modify entity @s transformation.translation[1] set value 1.03f
 data modify entity @s transformation.translation[2] set value -0.1f
 
