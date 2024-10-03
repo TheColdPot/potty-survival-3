@@ -1,0 +1,30 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    [
+      {
+        "translate": "potty.stat.health",
+        "fallback": "Health",
+        "italic": false,
+        "color": "gray"
+      },
+      ": ",
+      [
+        {
+          "text": "+",
+          "color": "green"
+        },
+        {
+          "nbt": "target.components.minecraft:custom_data.stats.health",
+          "storage": "potty:item"
+        },
+        {
+          "text": " ❤",
+          "color": "gray"
+        }
+      ]
+    ]
+  ],
+  "entity": "this"
+}

@@ -1,0 +1,29 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    [
+      {
+        "text": "Defense",
+        "italic": false,
+        "color": "gray"
+      },
+      ": ",
+      [
+        {
+          "text": "+",
+          "color": "green"
+        },
+        {
+          "nbt": "target.components.minecraft:custom_data.stats.defense",
+          "storage": "potty:item"
+        },
+        {
+          "text": " 🛡",
+          "color": "gray"
+        }
+      ]
+    ]
+  ],
+  "entity": "this"
+}

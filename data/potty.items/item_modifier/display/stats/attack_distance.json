@@ -1,0 +1,29 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    [
+      {
+        "text": "Attack Distance",
+        "italic": false,
+        "color": "gray"
+      },
+      ": ",
+      [
+        {
+          "text": "+",
+          "color": "red"
+        },
+        {
+          "nbt": "target.components.minecraft:custom_data.stats.attack_distance",
+          "storage": "potty:item"
+        },
+        {
+          "text": " ⚓",
+          "color": "gray"
+        }
+      ]
+    ]
+  ],
+  "entity": "this"
+}

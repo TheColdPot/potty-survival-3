@@ -1,0 +1,30 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    [
+      {
+        "translate": "potty.stat.damage",
+        "fallback": "Damage",
+        "italic": false,
+        "color": "gray"
+      },
+      ": ",
+      [
+        {
+          "text": "+",
+          "color": "red"
+        },
+        {
+          "nbt": "target.components.minecraft:custom_data.stats.damage",
+          "storage": "potty:item"
+        },
+        {
+          "text": " ⚔",
+          "color": "gray"
+        }
+      ]
+    ]
+  ],
+  "entity": "this"
+}

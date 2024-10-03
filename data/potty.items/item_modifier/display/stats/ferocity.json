@@ -1,0 +1,30 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    [
+      {
+        "translate": "potty.stat.ferocity",
+        "fallback": "Ferocity",
+        "italic": false,
+        "color": "gray"
+      },
+      ": ",
+      [
+        {
+          "text": "+",
+          "color": "green"
+        },
+        {
+          "nbt": "target.components.minecraft:custom_data.stats.ferocity",
+          "storage": "potty:item"
+        },
+        {
+          "text": " ♦",
+          "color": "gray"
+        }
+      ]
+    ]
+  ],
+  "entity": "this"
+}
