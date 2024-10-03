@@ -1,0 +1,1 @@
+item modify entity @s container.0 potty.items:gear/gear
