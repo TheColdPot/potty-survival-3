@@ -1,0 +1,1 @@
+execute on vehicle if entity @s[type=block_display,tag=npc_interact_chair] run return 1

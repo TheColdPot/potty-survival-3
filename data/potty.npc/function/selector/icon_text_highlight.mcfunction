@@ -1,0 +1,7 @@
+#复制名字
+
+#复制lore
+function potty.npc:selector/storage_text
+
+
+#data merge entity @s {text:'{"text":"","extra":[{"storage":"potty.npc:g_text","nbt":"List[].Line","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Custom_name","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[0]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[1]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[2]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[3]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[4]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[5]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[6]","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Empty","interpret":true},{"storage":"potty.npc:g_text","nbt":"List[].Lore[7]","interpret":true}]}'}

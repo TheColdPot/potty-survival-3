@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=npc_entity] at @s run function potty.npc:interaction_tick
