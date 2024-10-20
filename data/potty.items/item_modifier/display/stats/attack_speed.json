@@ -3,11 +3,15 @@
   "mode": "append",
   "lore": [
     [
+      
       {
-        "translate": "potty.stat.attack_speed",
-        "fallback": "Attack Speed",
+        "text": "⏳ ",
         "italic": false,
         "color": "gray"
+      },
+      {
+        "translate": "potty.stat.attack_speed",
+        "fallback": "Attack Speed"
       },
       ": ",
       [
@@ -18,10 +22,6 @@
         {
           "nbt": "target.components.minecraft:custom_data.stats.attack_speed",
           "storage": "potty:item"
-        },
-        {
-          "text": " ⏳",
-          "color": "gray"
         }
       ]
     ]

@@ -4,10 +4,13 @@
   "lore": [
     [
       {
-        "translate": "potty.stat.strength",
-        "fallback": "Strength",
+        "text": " 🍖",
         "italic": false,
         "color": "gray"
+      },
+      {
+        "translate": "potty.stat.strength",
+        "fallback": "Strength"
       },
       ": ",
       [
@@ -18,10 +21,6 @@
         {
           "nbt": "target.components.minecraft:custom_data.stats.strength",
           "storage": "potty:item"
-        },
-        {
-          "text": " 🍖",
-          "color": "gray"
         }
       ]
     ]
