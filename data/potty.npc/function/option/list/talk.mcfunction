@@ -10,7 +10,6 @@ scoreboard players set incre npc_rotation -40
 execute store result score rotation_res npc_rotation run function potty.npc:utils/cal_horizon_rotation
 execute store result entity @s Rotation[0] float 1 run scoreboard players get rotation_res npc_rotation
 
-
 data modify entity @s transformation.translation[2] set value -1.5f
 
 
