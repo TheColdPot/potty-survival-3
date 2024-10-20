@@ -4,10 +4,13 @@
   "lore": [
     [
       {
-        "translate": "potty.stat.damage",
-        "fallback": "Damage",
+        "text": "⚔ ",
         "italic": false,
         "color": "gray"
+      },
+      {
+        "translate": "potty.stat.damage",
+        "fallback": "Damage"
       },
       ": ",
       [
@@ -18,10 +21,6 @@
         {
           "nbt": "target.components.minecraft:custom_data.stats.damage",
           "storage": "potty:item"
-        },
-        {
-          "text": " ⚔",
-          "color": "gray"
         }
       ]
     ]

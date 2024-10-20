@@ -4,10 +4,13 @@
   "lore": [
     [
       {
-        "translate": "potty.stat.crit_damage",
-        "fallback": "Crit Damage",
+        "text": " ☠",
         "italic": false,
         "color": "gray"
+      },
+      {
+        "translate": "potty.stat.crit_damage",
+        "fallback": "Crit Damage"
       },
       ": ",
       [
@@ -19,11 +22,7 @@
           "nbt": "target.components.minecraft:custom_data.stats.crit_damage",
           "storage": "potty:item"
         },
-        "%",
-        {
-          "text": " ☠",
-          "color": "gray"
-        }
+        "%"
       ]
     ]
   ],

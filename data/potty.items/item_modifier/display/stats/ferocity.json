@@ -4,10 +4,13 @@
   "lore": [
     [
       {
-        "translate": "potty.stat.ferocity",
-        "fallback": "Ferocity",
+        "text": "♦ ",
         "italic": false,
         "color": "gray"
+      },
+      {
+        "translate": "potty.stat.ferocity",
+        "fallback": "Ferocity"
       },
       ": ",
       [
@@ -18,10 +21,6 @@
         {
           "nbt": "target.components.minecraft:custom_data.stats.ferocity",
           "storage": "potty:item"
-        },
-        {
-          "text": " ♦",
-          "color": "gray"
         }
       ]
     ]

@@ -1,0 +1,27 @@
+{
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+      [
+        { "text":"","italic": false },
+        {
+            "translate": "potty.rarity.unique.space",
+            "fallback": "",
+            "font": "potty:spaces",
+            "color": "#fcbd3f"
+        },
+        {
+          "text": " ᴜɴɪǫᴜᴇ ",
+          "color": "dark_gray"
+        },
+        "",
+        {
+          "nbt": "gear_type_name",
+          "storage": "potty:item",
+          "interpret": true
+        }
+      ],
+      ""
+    ],
+    "entity": "this"
+  }

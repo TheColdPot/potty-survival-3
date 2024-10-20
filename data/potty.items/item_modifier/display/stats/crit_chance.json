@@ -3,11 +3,15 @@
   "mode": "append",
   "lore": [
     [
+      
+      {
+        "text": "☠ ",
+        "color": "gray",
+        "italic": false
+      },
       {
         "translate": "potty.stat.crit_chance",
-        "fallback": "Crit Chance",
-        "italic": false,
-        "color": "gray"
+        "fallback": "Crit Chance"
       },
       ": ",
       [
@@ -19,11 +23,7 @@
           "nbt": "target.components.minecraft:custom_data.stats.crit_chance",
           "storage": "potty:item"
         },
-        "%",
-        {
-          "text": " ☠",
-          "color": "gray"
-        }
+        "%"
       ]
     ]
   ],
