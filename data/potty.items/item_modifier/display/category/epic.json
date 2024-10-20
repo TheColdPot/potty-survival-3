@@ -1,0 +1,28 @@
+{
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+      [
+        { "text":"","italic": false },
+        {
+            "translate": "potty.rarity.epic.space",
+            "fallback": "",
+            "font": "potty:spaces",
+            "color": "#29b6f6"
+        },
+        {
+          "translate": "potty.rarity.epic",
+          "fallback": " ᴇᴘɪᴄ ",
+          "color": "dark_gray"
+        },
+        "",
+        {
+          "nbt": "gear_type_name",
+          "storage": "potty:item",
+          "interpret": true
+        }
+      ],
+      ""
+    ],
+    "entity": "this"
+  }

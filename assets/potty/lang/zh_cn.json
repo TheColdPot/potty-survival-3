@@ -5,5 +5,21 @@
     "potty.stat.ferocity": "猛攻",
     "potty.stat.attack_speed": "攻速加成",
     "potty.stat.crit_chance": "暴击概率",
-    "potty.stat.crit_damage": "暴击伤害"
+    "potty.stat.crit_damage": "暴击伤害",
+    "potty.rarity.common": " 常见 ",
+    "potty.rarity.common.space": "\ua01a\ue01a",
+    "potty.rarity.rare": " 稀有 ",
+    "potty.rarity.rare.space": "\ua01a\ue01a",
+    "potty.rarity.epic": " 史诗 ",
+    "potty.rarity.epic.space": "\ua01a\ue01a",
+    "potty.rarity.unique": " 独特 ",
+    "potty.rarity.unique.space": "\ua01a\ue01a",
+    "potty.rarity.divine": " 神迹 ",
+    "potty.rarity.divine.space": "\ua01a\ue01a",
+    "potty.gear.sword": " 短剑 ",
+    "potty.gear.sword.space": "\ua01a\ue01a",
+    "potty.gear.katana": " 武士刀 ",
+    "potty.gear.katana.space": "\ua022\ue022",
+    "potty.gear.claymore": " 阔剑 ",
+    "potty.gear.claymore.space": "\ua01a\ue01a"
 }
