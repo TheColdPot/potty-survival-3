@@ -1,14 +1,18 @@
-{
+[
+  {
     "function": "set_lore",
     "mode": "append",
     "lore": [
       [
-        { "text":"","italic": false },
         {
-            "translate": "potty.rarity.unique.space",
-            "fallback": "",
-            "font": "potty:spaces",
-            "color": "#fcbd3f"
+          "text": "",
+          "italic": false
+        },
+        {
+          "translate": "potty.rarity.unique.space",
+          "fallback": "",
+          "font": "potty:spaces",
+          "color": "#fcbd3f"
         },
         {
           "translate": "potty.rarity.unique",
@@ -25,4 +29,17 @@
       ""
     ],
     "entity": "this"
+  },
+  
+  {
+    "function": "set_name",
+    "target": "item_name",
+    "name": {
+      "nbt": "target.components.minecraft:item_name",
+      "storage": "potty:item",
+      "interpret": true,
+      "color": "gold"
+    },
+    "entity": "this"
   }
+]
