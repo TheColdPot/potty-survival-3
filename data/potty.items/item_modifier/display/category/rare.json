@@ -15,7 +15,7 @@
           "fallback": " ʀᴀʀᴇ ",
           "color": "dark_gray"
         },
-        "",
+        " ",
         {
           "nbt": "gear_type_name",
           "storage": "potty:item",
