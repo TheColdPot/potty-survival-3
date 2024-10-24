@@ -11,17 +11,17 @@ execute as @e[type=marker,distance=..5,tag=combat.arrow_marker] unless function 
 
 ## next available attack countdown
 execute if score @s attack_countdown matches 1.. run scoreboard players remove @s attack_countdown 1
-attribute @s[scores={attack_countdown=..0}] generic.attack_damage modifier remove potty.combat:attack_cooldown
-attribute @s[scores={attack_countdown=..0}] generic.movement_speed modifier remove block_success
+attribute @s[scores={attack_countdown=..0}] attack_damage modifier remove potty.combat:attack_cooldown
+attribute @s[scores={attack_countdown=..0}] movement_speed modifier remove block_success
 
 ## fuck!
-attribute @s generic.armor modifier add potty.combat:remove_armor -114514 add_value
-attribute @s generic.armor_toughness modifier add potty.combat:remove_armor 114514 add_value
-attribute @s generic.attack_damage modifier add potty.combat:remove_damage -0.9999 add_multiplied_total
-attribute @s generic.attack_damage base set 0
-attribute @s generic.attack_damage modifier remove minecraft:base_attack_damage
-attribute @s generic.fall_damage_multiplier base set 0
-execute if score @s latest_sweep_time = #global_time var run attribute @s generic.knockback_resistance modifier remove kbre
+attribute @s armor modifier add potty.combat:remove_armor -114514 add_value
+attribute @s armor_toughness modifier add potty.combat:remove_armor 114514 add_value
+attribute @s attack_damage modifier add potty.combat:remove_damage -0.9999 add_multiplied_total
+attribute @s attack_damage base set 0
+attribute @s attack_damage modifier remove minecraft:base_attack_damage
+attribute @s fall_damage_multiplier base set 0
+execute if score @s latest_sweep_time = #global_time var run attribute @s knockback_resistance modifier remove kbre
 
 # execute as @e[type=text_disptag=combat.damage_splash] run function potty.combat:damage_splash/tick.damage_splash
 # execute as @e[type=text_disptag=combat.health_bar] run function potty.combat:health_bar/tick.health_bar

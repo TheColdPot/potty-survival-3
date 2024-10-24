@@ -7,7 +7,7 @@ scoreboard players operation @s display_health > #SIGN_POSITIVE var
 
 # tellraw @a [{"score":{"name": "@s", "objective": "display_health"}}," ",{"score":{"name":"original_display_health","objective": "var"}}]
 
-# attribute @s minecraft:generic.max_health modifier remove potty.combat:health_limit
+# attribute @s minecraft:max_health modifier remove potty.combat:health_limit
 # say 你好。
 # execute if score original_display_health var = @s display_health run return 0
 # execute if score original_display_health var < @s display_health run say 1

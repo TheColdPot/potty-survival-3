@@ -10,5 +10,5 @@ scoreboard players set @s wand_sneak_time 0
 scoreboard players operation @s wand_sneak_time -= @s required_wand_sneak_time
 scoreboard players operation @s wand_sneak_time -= @s required_wand_sneak_time
 
-attribute @s generic.movement_speed modifier remove potty:magic_cast_movement_scale_1
-attribute @s generic.movement_speed modifier remove potty:magic_cast_movement_scale_2
+attribute @s movement_speed modifier remove potty:magic_cast_movement_scale_1
+attribute @s movement_speed modifier remove potty:magic_cast_movement_scale_2

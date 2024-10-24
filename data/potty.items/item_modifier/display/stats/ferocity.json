@@ -16,7 +16,7 @@
       [
         {
           "text": "+",
-          "color": "green"
+          "color": "white"
         },
         {
           "nbt": "target.components.minecraft:custom_data.stats.ferocity",

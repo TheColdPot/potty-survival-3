@@ -10,5 +10,5 @@ playsound minecraft:block.bell.use player @s ~ ~ ~ 1 2
 playsound minecraft:item.trident.return player @s ~ ~ ~ 2 1.5
 playsound minecraft:entity.lightning_bolt.impact player @s ~ ~ ~ 0.5 2
 
-attribute @s generic.movement_speed modifier add block_success -0.05 add_value
+attribute @s movement_speed modifier add block_success -0.05 add_value
 scoreboard players set @s attack_countdown 4

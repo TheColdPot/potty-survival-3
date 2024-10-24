@@ -12,7 +12,7 @@
             {
                 "id": "potty.combat:add_melee_damage",
                 "amount": 1,
-                "attribute": "generic.attack_damage",
+                "attribute": "attack_damage",
                 "operation": "add_value",
                 "slot": "any"
             }

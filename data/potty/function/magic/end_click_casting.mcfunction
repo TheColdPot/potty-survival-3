@@ -1,8 +1,8 @@
 scoreboard players operation @s mana -= @s click_required_mana
 
 
-attribute @s generic.movement_speed modifier remove potty:magic_cast_movement_scale_1
-attribute @s generic.movement_speed modifier remove potty:magic_cast_movement_scale_2
+attribute @s movement_speed modifier remove potty:magic_cast_movement_scale_1
+attribute @s movement_speed modifier remove potty:magic_cast_movement_scale_2
 
 
 data modify storage potty:player previous_slot set value {}

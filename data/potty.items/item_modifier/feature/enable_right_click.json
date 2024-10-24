@@ -1,7 +1,7 @@
 {
     "function": "set_components",
     "components": {
-        "food": {"can_always_eat": true, "eat_seconds": 3.402823466e+38
-        , "nutrition": 0, "saturation": 0}
+        "consumable": {"consume_seconds": 3.402823466e+38, "animation": "none"},
+        "food": {"can_always_eat": true, "nutrition": 0, "saturation": 0}
     }
 }

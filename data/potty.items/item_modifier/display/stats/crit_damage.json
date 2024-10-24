@@ -16,7 +16,7 @@
       [
         {
           "text": "+",
-          "color": "red"
+          "color": "white"
         },
         {
           "nbt": "target.components.minecraft:custom_data.stats.crit_damage",

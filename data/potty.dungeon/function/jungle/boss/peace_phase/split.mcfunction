@@ -1,5 +1,5 @@
 function potty.dungeon:jungle/dialog/split
-execute store result entity @s attributes[{id:"minecraft:generic.scale"}].base float 0.75 run attribute @s generic.scale base get
+execute store result entity @s attributes[{id:"minecraft:scale"}].base float 0.75 run attribute @s scale base get
 summon minecraft:bogged ~ ~ ~ {Motion:[+1d,1d,0d],CustomName:'"Slime Skeleton"',sheared:1b,Tags:[new_summon]}
 summon minecraft:bogged ~ ~ ~ {Motion:[-1d,1d,0d],CustomName:'"Slime Skeleton"',sheared:1b,Tags:[new_summon]}
 summon minecraft:bogged ~ ~ ~ {Motion:[0d,1d,+1d],CustomName:'"Slime Skeleton"',sheared:1b,Tags:[new_summon]}

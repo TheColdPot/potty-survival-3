@@ -6,5 +6,5 @@ tag @s remove sweep_summoner
 
 execute if entity @a[scores={motion_tick=1..}] run schedule function potty.combat:sweeping/slash/continue 1t
 
-attribute @s[scores={motion_tick=..0}] minecraft:generic.movement_speed modifier remove ablilty
+attribute @s[scores={motion_tick=..0}] minecraft:movement_speed modifier remove ablilty
 scoreboard players reset @s[scores={motion_tick=..0}] motion_tick
