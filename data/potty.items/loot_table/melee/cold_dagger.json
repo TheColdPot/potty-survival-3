@@ -13,7 +13,7 @@
                         },
                         {
                             "function": "set_name",
-                            "name": "Cold Dagger (for test)",
+                            "name": ["Cold Dagger"," ",{"text":"(Test Only)","color":"yellow","bold":true}],
                             "target": "item_name"
                         }
                     ]
