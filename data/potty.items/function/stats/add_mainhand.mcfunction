@@ -1,42 +1,42 @@
 # this function adds mainhand stats BASED ON armor
 
-data remove storage potty:items mainhand_stats
-data modify storage potty:item mainhand_stats set from entity @s SelectedItem.components.minecraft:custom_data.stats
+data remove storage potty.item:stats mainhand_stats
+data modify storage potty.items:constructor mainhand_stats set from entity @s SelectedItem.components.minecraft:custom_data.stats
 
-execute store result score @s weapon_damage run data get storage potty:item mainhand_stats.damage
+execute store result score @s weapon_damage run data get storage potty.items:constructor mainhand_stats.damage
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.health
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.health
 scoreboard players operation @s health_stat = @s health_armor
 scoreboard players operation @s health_stat += #piece_stat var
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.defense
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.defense
 scoreboard players operation @s defense_stat = @s defense_armor
 scoreboard players operation @s defense_stat += #piece_stat var
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.strength
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.strength
 scoreboard players operation @s strength_stat = @s strength_armor
 scoreboard players operation @s strength_stat += #piece_stat var
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.crit_chance
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.crit_chance
 scoreboard players operation @s crit_chance_stat = @s crit_chance_armor
 scoreboard players operation @s crit_chance_stat += #piece_stat var
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.crit_damage
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.crit_damage
 scoreboard players operation @s crit_damage_stat = @s crit_damage_armor
 scoreboard players operation @s crit_damage_stat += #piece_stat var
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.ferocity
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.ferocity
 scoreboard players operation @s ferocity_stat = @s ferocity_armor
 scoreboard players operation @s ferocity_stat += #piece_stat var
 
 
-execute store result score #piece_stat var run data get storage potty:item mainhand_stats.attack_speed
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.attack_speed
 scoreboard players operation @s attack_speed_stat = @s attack_speed_armor
 scoreboard players operation @s attack_speed_stat += #piece_stat var
 

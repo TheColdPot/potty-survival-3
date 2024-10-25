@@ -21,7 +21,7 @@
         },
         {
           "nbt": "target.components.minecraft:custom_data.stats.attack_speed",
-          "storage": "potty:item"
+          "storage": "potty.items:constructor"
         }
       ]
     ]

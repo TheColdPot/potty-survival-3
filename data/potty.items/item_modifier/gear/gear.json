@@ -22,7 +22,7 @@
                         },
                         "value": {
                             "type": "storage",
-                            "storage": "potty:item",
+                            "storage": "potty.items:constructor",
                             "path": "target.components.minecraft:custom_data.gear_type"
                         }
                     },
@@ -31,7 +31,7 @@
                         "range": 1,
                         "value": {
                             "type": "storage",
-                            "storage": "potty:item",
+                            "storage": "potty.items:constructor",
                             "path": "target.components.minecraft:custom_data.is_sword"
                         }
                     }

@@ -14,7 +14,7 @@
                 "range": 100,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -33,7 +33,7 @@
                 "range": 103,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -52,7 +52,7 @@
                 "range": 104,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -71,7 +71,7 @@
                 "range": 105,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -90,7 +90,7 @@
                 "range": 6,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -109,7 +109,7 @@
                 "range": 7,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -128,7 +128,7 @@
                 "range": 8,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.gear_type"
                 }
             }
@@ -147,7 +147,7 @@
                     "range": 0,
                     "value": {
                         "type": "storage",
-                        "storage": "potty:item",
+                        "storage": "potty.items:constructor",
                         "path": "target.components.minecraft:custom_data.gear_type"
                     }
                 }

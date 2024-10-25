@@ -16,7 +16,7 @@
         },
         {
           "nbt": "target.components.minecraft:custom_data.stats.defense",
-          "storage": "potty:item"
+          "storage": "potty.items:constructor"
         }
       ]
     ]

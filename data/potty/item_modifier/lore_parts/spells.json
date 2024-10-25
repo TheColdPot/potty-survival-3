@@ -8,7 +8,7 @@
                 "range": 1,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.wand"
                 }
             }
@@ -28,9 +28,9 @@
         "entity": "this",
         "lore": [
             "",
-            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.right_click.name","storage":"potty:item","interpret":true}, {"text":"  ʀɪɢʜᴛ ᴄʟɪᴄᴋ","bold":true,"color":"yellow"}],
-            [{"nbt":"target.components.minecraft:custom_data.spells.right_click.description","storage":"potty:item","interpret":true,"color":"gray","italic":false}],
-            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.right_click.cost","storage":"potty:item","color":"dark_aqua"}]]
+            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.right_click.name","storage":"potty.items:constructor","interpret":true}, {"text":"  ʀɪɢʜᴛ ᴄʟɪᴄᴋ","bold":true,"color":"yellow"}],
+            [{"nbt":"target.components.minecraft:custom_data.spells.right_click.description","storage":"potty.items:constructor","interpret":true,"color":"gray","italic":false}],
+            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.right_click.cost","storage":"potty.items:constructor","color":"dark_aqua"}]]
         ],
 
         "conditions": [
@@ -39,7 +39,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.right_click.cost"
                 }
             }
@@ -51,7 +51,7 @@
         "mode": "append",
         "entity": "this",
         "lore": [
-            [{"translate":"potty.charges","fallback":"Charges","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.right_click.max_charges","storage":"potty:item","color":"yellow"}], {"text":" / ","color":"gray"},[{"nbt":"target.components.minecraft:custom_data.spells.right_click.charge_time","storage":"potty:item","color":"gold"}, "s"]]
+            [{"translate":"potty.charges","fallback":"Charges","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.right_click.max_charges","storage":"potty.items:constructor","color":"yellow"}], {"text":" / ","color":"gray"},[{"nbt":"target.components.minecraft:custom_data.spells.right_click.charge_time","storage":"potty.items:constructor","color":"gold"}, "s"]]
         ],
 
         "conditions": [
@@ -60,7 +60,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.right_click.max_charges"
                 }
             }
@@ -81,7 +81,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.right_click.cost"
                 }
             },
@@ -90,7 +90,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.right_click.needs_full_cast"
                 }
             }
@@ -103,9 +103,9 @@
         "entity": "this",
         "lore": [
             "",
-            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.sneak_click.name","storage":"potty:item","interpret":true}, {"text":"  sɴᴇᴀᴋ ᴄʟɪᴄᴋ","bold":true,"color":"yellow"}],
-            [{"nbt":"target.components.minecraft:custom_data.spells.sneak_click.description","storage":"potty:item","interpret":true,"color":"gray","italic":false}],
-            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.sneak_click.cost","storage":"potty:item","color":"dark_aqua"}]]
+            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.sneak_click.name","storage":"potty.items:constructor","interpret":true}, {"text":"  sɴᴇᴀᴋ ᴄʟɪᴄᴋ","bold":true,"color":"yellow"}],
+            [{"nbt":"target.components.minecraft:custom_data.spells.sneak_click.description","storage":"potty.items:constructor","interpret":true,"color":"gray","italic":false}],
+            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.sneak_click.cost","storage":"potty.items:constructor","color":"dark_aqua"}]]
         ],
 
         "conditions": [
@@ -114,7 +114,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.sneak_click.cost"
                 }
             }
@@ -127,9 +127,9 @@
         "entity": "this",
         "lore": [
             "",
-            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.name","storage":"potty:item","interpret":true}, {"text":"  ʜᴏʟᴅ sɴᴇᴀᴋ","bold":true,"color":"yellow"}],
-            [{"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.description","storage":"potty:item","interpret":true,"color":"gray","italic":false}],
-            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.cost","storage":"potty:item","color":"dark_aqua"}]]
+            [{"text":"✨ ","color":"gold","italic":false}, {"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.name","storage":"potty.items:constructor","interpret":true}, {"text":"  ʜᴏʟᴅ sɴᴇᴀᴋ","bold":true,"color":"yellow"}],
+            [{"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.description","storage":"potty.items:constructor","interpret":true,"color":"gray","italic":false}],
+            [{"translate":"potty.mana_cost","fallback":"Mana Cost","color":"dark_gray","italic":false},": ",[{"nbt":"target.components.minecraft:custom_data.spells.hold_sneak.cost","storage":"potty.items:constructor","color":"dark_aqua"}]]
         ],
 
         "conditions": [
@@ -138,7 +138,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.hold_sneak.cost"
                 }
             }
@@ -158,7 +158,7 @@
                 "range": {"min": 1},
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.spells.right_click.max_charges"
                 }
             }

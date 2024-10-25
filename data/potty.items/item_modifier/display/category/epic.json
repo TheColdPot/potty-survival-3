@@ -22,7 +22,7 @@
         " ",
         {
           "nbt": "gear_type_name",
-          "storage": "potty:item",
+          "storage": "potty.items:constructor",
           "interpret": true
         }
       ],
@@ -35,7 +35,7 @@
     "target": "item_name",
     "name": {
       "nbt": "target.components.minecraft:item_name",
-      "storage": "potty:item",
+      "storage": "potty.items:constructor",
       "interpret": true,
       "color": "blue"
     },

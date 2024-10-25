@@ -1,5 +1,5 @@
 #declare storage potty:player
-#declare storage potty:item
+#declare storage potty.items:constructor
 #declare storage potty:effects
 #declare storage potty:combat
 

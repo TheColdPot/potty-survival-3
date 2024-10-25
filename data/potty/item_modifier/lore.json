@@ -14,7 +14,7 @@
                 "range": 0,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.no_stats"
                 }
             }
@@ -22,14 +22,14 @@
     },
     {
         "function": "reference",
-        "name": "potty:item_name",
+        "name": "potty.items:constructor_name",
         "conditions": [
             {
                 "condition": "value_check",
                 "range": 1,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target_has_name"
                 }
             }
@@ -44,7 +44,7 @@
                 "range": 1,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.wand"
                 }
             }
@@ -74,7 +74,7 @@
                     },
                     "value": {
                         "type": "storage",
-                        "storage": "potty:item",
+                        "storage": "potty.items:constructor",
                         "path": "target.components.minecraft:custom_data.rarity"
                     }
                 }
@@ -101,7 +101,7 @@
                 "range": 1,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.rarity"
                 }
             }
@@ -127,7 +127,7 @@
                 "range": 4,
                 "value": {
                     "type": "storage",
-                    "storage": "potty:item",
+                    "storage": "potty.items:constructor",
                     "path": "target.components.minecraft:custom_data.rarity"
                 }
             }
@@ -149,7 +149,7 @@
                             "range": 1,
                             "value": {
                                 "type": "storage",
-                                "storage": "potty:item",
+                                "storage": "potty.items:constructor",
                                 "path": "target.components.minecraft:custom_data.breakable"
                             }
                         },
@@ -158,7 +158,7 @@
                             "range": 1,
                             "value": {
                                 "type": "storage",
-                                "storage": "potty:item",
+                                "storage": "potty.items:constructor",
                                 "path": "target.components.minecraft:custom_data.has_charge"
                             }
                         }
