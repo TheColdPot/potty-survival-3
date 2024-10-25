@@ -16,12 +16,12 @@
     "potty.rarity.unique.space": "\ua01a\ue01a",
     "potty.rarity.divine": " 神迹 ",
     "potty.rarity.divine.space": "\ua01a\ue01a",
-    "potty.gear.sword": " 短剑 ",
-    "potty.gear.sword.space": "\ua01a\ue01a",
-    "potty.gear.katana": " 武士刀 ",
-    "potty.gear.katana.space": "\ua022\ue022",
-    "potty.gear.dagger": " 匕首 ",
-    "potty.gear.dagger.space": "\ua01a\ue01a",
-    "potty.gear.claymore": " 阔剑 ",
-    "potty.gear.claymore.space": "\ua01a\ue01a"
+    "potty.gear.sword": " 🗡 短剑 ",
+    "potty.gear.sword.space": "\ua026\ue026",
+    "potty.gear.katana": " 🗡 武士刀 ",
+    "potty.gear.katana.space": "\ua02f\ue02f",
+    "potty.gear.dagger": " 🗡 匕首 ",
+    "potty.gear.dagger.space": "\ua026\ue026",
+    "potty.gear.claymore": " 🗡 阔剑 ",
+    "potty.gear.claymore.space": "\ua026\ue026"
 }
