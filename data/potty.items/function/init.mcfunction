@@ -17,4 +17,4 @@ scoreboard objectives add attack_speed_stat dummy
 scoreboard objectives add selected_slot dummy
 
 kill 706f7474-7973-4872-0000-adc200000001
-summon item_display ~ ~ ~ {UUID:[I;1886352500,2037598322,44482,1],CustomName:'{"text":"Item Constructor Helper","color":"red","bold":true}'}
+summon item_display ~ ~ ~ {UUID:[I;1886352500,2037598322,44482,1],CustomName:'{"text":"Item Constructor Helper","color":"red","bold":true}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}

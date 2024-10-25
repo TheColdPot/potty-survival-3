@@ -1,0 +1,36 @@
+{
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+        [
+            {
+                "text": "",
+                "italic": false,
+                "color": "gray"
+            },
+            {
+                "text": "\ua00f\ue00c",
+                "color": "dark_gray",
+                "font": "potty:spaces"
+            },
+            {
+                "text": "☽ "
+            },
+            " ",
+            {
+                "translate": "pawerfg",
+                "fallback": "Lunar Respite",
+                "color": "#7986cb"
+            }
+        ],
+        [
+            {
+                "text": "",
+                "italic": false,
+                "color": "gray"
+            },
+            "Regenerate health out of combat."
+        ]
+    ],
+    "entity": "this"
+}

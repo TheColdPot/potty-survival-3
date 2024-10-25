@@ -4,3 +4,7 @@ item modify entity @s container.0 potty.items:display/base
 
 function potty.items:process/category
 function potty.items:process/stats
+
+execute if data storage potty:item target.components.minecraft:custom_data.attachments run function potty.items:process/attachments
+
+data remove storage potty:item target

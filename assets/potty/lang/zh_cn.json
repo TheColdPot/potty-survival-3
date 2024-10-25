@@ -23,5 +23,8 @@
     "potty.gear.dagger": " 🗡 匕首 ",
     "potty.gear.dagger.space": "\ua026\ue026",
     "potty.gear.claymore": " 🗡 阔剑 ",
-    "potty.gear.claymore.space": "\ua026\ue026"
+    "potty.gear.claymore.space": "\ua026\ue026",
+    "potty.gear.attachments": "镶嵌",
+    "potty.gear.attachments.line": "                                                 ",
+    "potty.gear.attachment_slots": "已用槽位"
 }

@@ -1,0 +1,35 @@
+{
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+        "",
+        [
+            {
+                "text": "● ",
+                "italic": false,
+                "color": "#7d7d7d"
+            },
+            {
+                "translate": "potty.gear.attachments",
+                "fallback": "ᴀᴛᴛᴀᴄʜᴍᴇɴᴛs"
+            },
+            " ",
+            {
+                "translate": "potty.gear.attachments.line",
+                "fallback": "                            ",
+                "strikethrough": true
+            }
+        ],
+        [
+            {
+                "translate": "potty.gear.attachment_slots",
+                "fallback": "Applied",
+                "color": "dark_gray",
+                "italic": false
+            },
+            ": ",
+            "1/5"
+        ]
+    ],
+    "entity": "this"
+}
