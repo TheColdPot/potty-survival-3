@@ -1,6 +1,6 @@
 # this function adds mainhand stats BASED ON armor
 
-data remove storage potty.item:stats mainhand_stats
+data remove storage potty.items:stats mainhand_stats
 data modify storage potty.items:constructor mainhand_stats set from entity @s SelectedItem.components.minecraft:custom_data.stats
 
 execute store result score @s weapon_damage run data get storage potty.items:constructor mainhand_stats.damage

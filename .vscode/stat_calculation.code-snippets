@@ -5,14 +5,14 @@
 		"prefix": "\\statcalc",
 		"body": [
 			"scoreboard players set @s ${1:scoreboard_name} ${2:base_value}",
-			"execute store result score #piece_stat var run data get storage potty.item:stats head_stats.${3:field_name}",
+			"execute store result score #piece_stat var run data get storage potty.items:stats head_stats.${3:field_name}",
 			"scoreboard players operation @s $1 += #piece_stat var",
 
-			"execute store result score #piece_stat var run data get storage potty.item:stats chest_stats.$3",
+			"execute store result score #piece_stat var run data get storage potty.items:stats chest_stats.$3",
 			"scoreboard players operation @s $1 += #piece_stat var",
-			"execute store result score #piece_stat var run data get storage potty.item:stats legs_stats.$3",
+			"execute store result score #piece_stat var run data get storage potty.items:stats legs_stats.$3",
 			"scoreboard players operation @s $1 += #piece_stat var",
-			"execute store result score #piece_stat var run data get storage potty.item:stats feet_stats.$3",
+			"execute store result score #piece_stat var run data get storage potty.items:stats feet_stats.$3",
 			"scoreboard players operation @s $1 += #piece_stat var"
 		]
 	}
