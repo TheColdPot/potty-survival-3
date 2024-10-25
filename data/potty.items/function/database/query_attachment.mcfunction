@@ -1,0 +1,1 @@
+execute if data storage potty.items:database {query:"respite"} run data modify storage potty.items:database output set value {icon: "☽", short_description: '{"translate":"","fallback":"Regenerate health out of combat."}', name: '{"translate": "", "fallback": "Lunar Respite","color": "#7986cb"}'}

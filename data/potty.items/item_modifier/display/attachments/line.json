@@ -14,22 +14,24 @@
                 "font": "potty:spaces"
             },
             {
-                "text": "☽ "
+                "nbt": "output.icon",
+                "storage": "potty.items:database"
             },
-            " ",
+            "  ",
             {
-                "translate": "pawerfg",
-                "fallback": "Lunar Respite",
-                "color": "#7986cb"
+                "nbt": "output.name",
+                "storage": "potty.items:database",
+                "interpret": true
             }
         ],
         [
             {
-                "text": "",
+                "nbt": "output.short_description",
+                "storage": "potty.items:database",
+                "interpret": true,
                 "italic": false,
                 "color": "gray"
-            },
-            "Regenerate health out of combat."
+            }
         ]
     ],
     "entity": "this"
