@@ -25,17 +25,23 @@
             },
             "  ",
             [
+                "",
                 {
-                    "text": "‹",
-                    "color": "yellow"
+                    "text": "A",
+                    "font": "potty:decorations",
+                    "color":"dark_gray"
+                },
+                {
+                    "text": "\ue009",
+                    "font": "potty:spaces"
                 },
                 {
                     "score": {
                         "name": "#attachment_count",
                         "objective": "var"
-                    }
-                },
-                "›"
+                    },
+                    "color": "white"
+                }
             ]
         ],
         [

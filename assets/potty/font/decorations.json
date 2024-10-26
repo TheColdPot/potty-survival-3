@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "potty:font/char_backdrops.png",
+            "chars": [
+                "A"
+            ],
+            "ascent": 9,
+            "height": 11
+        }
+    ]
+}
