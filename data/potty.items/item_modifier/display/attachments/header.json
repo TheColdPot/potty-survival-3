@@ -28,7 +28,16 @@
                 "italic": false
             },
             ": ",
-            "1/5"
+            [
+                {
+                    "score": {
+                        "name": "#total_attachment_count",
+                        "objective": "var"
+                    }
+                },
+                "/",
+                "5"
+            ]
         ]
     ],
     "entity": "this"

@@ -1,0 +1,52 @@
+{
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+        [
+            {
+                "text": "",
+                "italic": false,
+                "color": "gray"
+            },
+            {
+                "text": "\ua00f\ue00c",
+                "color": "dark_gray",
+                "font": "potty:spaces"
+            },
+            {
+                "nbt": "output.icon",
+                "storage": "potty.items:database"
+            },
+            "  ",
+            {
+                "nbt": "output.name",
+                "storage": "potty.items:database",
+                "interpret": true
+            },
+            "  ",
+            [
+                {
+                    "text": "‹",
+                    "color": "yellow"
+                },
+                {
+                    "score": {
+                        "name": "#attachment_count",
+                        "objective": "var"
+                    }
+                },
+                "›"
+            ]
+        ],
+        [
+            {
+                "nbt": "output.short_description",
+                "storage": "potty.items:database",
+                "interpret": true,
+                "italic": false,
+                "color": "gray"
+            }
+        ]
+    ],
+    "entity": "this"
+}
