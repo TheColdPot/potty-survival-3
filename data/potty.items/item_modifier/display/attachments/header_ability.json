@@ -1,0 +1,25 @@
+{
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+        "",
+        [
+            {
+                "text": "● ",
+                "italic": false,
+                "color": "#7d7d7d"
+            },
+            {
+                "translate": "potty.gear.attachable_ability",
+                "fallback": "ᴀʙɪʟɪᴛʏ"
+            },
+            " ",
+            {
+                "translate": "potty.gear.attachable_ability.line",
+                "fallback": "                               ",
+                "strikethrough": true
+            }
+        ]
+    ],
+    "entity": "this"
+}

@@ -8,5 +8,6 @@
     "potty.gear.sword.space": "\ua026\ue026",
     "potty.gear.katana.space": "\ua038\ue038",
     "potty.gear.dagger.space": "\ua038\ue038",
-    "potty.gear.claymore.space": "\ua02c\ue02c"
+    "potty.gear.claymore.space": "\ua02c\ue02c",
+    "potty.attachable.space": "\ua044\ue044"
 }

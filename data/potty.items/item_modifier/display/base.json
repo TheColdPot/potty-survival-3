@@ -1,12 +1,5 @@
 [
     {
-        "function": "set_components",
-        "components": {
-            "!max_damage": {},
-            "max_stack_size": 1
-        }
-    },
-    {
         "function": "toggle_tooltips",
         "toggles": {
             "attribute_modifiers": false,
