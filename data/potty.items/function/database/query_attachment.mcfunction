@@ -9,6 +9,6 @@ execute if data storage potty.items:database {query: "lunar_trial"} run data mod
   attachable_name: '{"translate":"","fallback":"Waning Moondust"}', \
   inscription: {\
     length: 2, \
-    lines: ['{"translate":"","fallback":"Too delicate to be a natural creation."}','{"translate":"","fallback":"More possibly from a divine hand."}'], \
+    lines: ['{"translate":"","fallback":"Too delicate to be a natural creation."}','{"translate":"","fallback":"More likely to be from a divine hand."}'], \
   }, \
 }

@@ -16,7 +16,7 @@
             " ",
             {
                 "translate": "potty.gear.attachable_ability.line",
-                "fallback": "                               ",
+                "fallback": "                                     ",
                 "strikethrough": true
             }
         ]
