@@ -1,0 +1,69 @@
+[
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            "",
+            [
+                {
+                    "text": "● ",
+                    "italic": false,
+                    "color": "#7d7d7d"
+                },
+                {
+                    "translate": "",
+                    "fallback": "ɪɴsᴄʀɪᴘᴛɪᴏɴ"
+                },
+                " ",
+                {
+                    "translate": "",
+                    "fallback": "                               ",
+                    "strikethrough": true
+                }
+            ]
+        ],
+        "entity": "this"
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"nbt": "output.inscription.lines[0]", "storage": "potty.items:database", "color": "dark_gray", "italic": false, "interpret": true}
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {
+                    "type": "storage",
+                    "storage": "potty.items:database",
+                    "path": "output.inscription.length"
+                },
+                "range": {
+                    "min": 1
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "mode": "append",
+        "lore": [
+            {"nbt": "output.inscription.lines[1]", "storage": "potty.items:database", "color": "dark_gray", "italic": false, "interpret": true}
+        ],
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {
+                    "type": "storage",
+                    "storage": "potty.items:database",
+                    "path": "output.inscription.length"
+                },
+                "range": {
+                    "min": 2
+                }
+            }
+        ]
+    }
+]
