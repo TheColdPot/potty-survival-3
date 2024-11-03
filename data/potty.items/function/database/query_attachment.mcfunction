@@ -6,7 +6,7 @@ execute if data storage potty.items:database {query: "lunar_trial"} run data mod
   icon: "☽", \
   short_description: '{"translate":"","fallback":"Chance to strike enemies on hit."}', \
   name: '{"translate": "", "fallback": "Lunar Trial","color": "#f06292"}', \
-  attachable_name: "Waning Moondust", \
+  attachable_name: '{"translate":"","fallback":"Waning Moondust"}', \
   inscription: {\
     length: 2, \
     lines: ['{"translate":"","fallback":"By nature seems not a natural creation..."}'], \

@@ -1,36 +1,37 @@
 [
-    {
-        "function": "set_name",
-        "target": "item_name",
-        "name": {
-            "nbt": "output.attachable_name",
-            "storage": "potty.items:database",
-            "color": "yellow"
-        },
-        "entity": "this"
+  {
+    "function": "set_name",
+    "target": "item_name",
+    "name": {
+      "nbt": "output.attachable_name",
+      "storage": "potty.items:database",
+      "color": "yellow",
+      "interpret": true
     },
-    {
-        "function": "set_lore",
-        "mode": "append",
-        "lore": [
-            [
-                {
-                  "text": "",
-                  "italic": false
-                },
-                {
-                  "translate": "potty.attachable.space",
-                  "fallback": "",
-                  "font": "potty:spaces",
-                  "color": "#dbdb65"
-                },
-                {
-                  "translate": "potty.attachable",
-                  "fallback": " ᴀᴛᴛᴀᴄʜᴀʙʟᴇ ",
-                  "color": "black"
-                }
-            ]
-        ],
-        "entity": "this"
-    }
+    "entity": "this"
+  },
+  {
+    "function": "set_lore",
+    "mode": "append",
+    "lore": [
+      [
+        {
+          "text": "",
+          "italic": false
+        },
+        {
+          "translate": "potty.attachable.space",
+          "fallback": "",
+          "font": "potty:spaces",
+          "color": "#dbdb65"
+        },
+        {
+          "translate": "potty.attachable",
+          "fallback": " ᴀᴛᴛᴀᴄʜᴀʙʟᴇ ",
+          "color": "black"
+        }
+      ]
+    ],
+    "entity": "this"
+  }
 ]
