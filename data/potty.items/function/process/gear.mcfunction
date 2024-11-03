@@ -3,5 +3,9 @@ item modify entity @s container.0 potty.items:feature/mark_melee_weapon
 function potty.items:process/category
 function potty.items:process/stats
 
-execute if data storage potty.items:constructor target.components.minecraft:custom_data.attachments run function potty.items:process/attachments
+execute store result score #attachment_count var run data get storage potty.items:constructor target.components.minecraft:custom_data.attachments
+
+execute if data storage potty.items:constructor target.components.minecraft:custom_data.attachments unless score #attachment_count var matches ..0 run function potty.items:process/attachments
+
+scoreboard players reset #attachment_count
 

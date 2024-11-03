@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "team": "grindstone_entities"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "potty.items:grindstone/interact"
+  }
+}
