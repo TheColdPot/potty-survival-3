@@ -1,19 +1,25 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "iron_nugget",
-                    "functions": [
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{request_lore: true, is_attachable: 1b, attachment:{id: 'lunar_trial'}}"
-                        }
-                    ]
+          "type": "item",
+          "name": "iron_nugget",
+          "functions": [
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "request_lore": true,
+                "is_attachable": true,
+                "attachment": {
+                  "id": "lunar_trial"
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

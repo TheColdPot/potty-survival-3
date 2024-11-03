@@ -1,5 +1,7 @@
 {
     "workbench.iconTheme": "mc-dp-icons",
     "spyglassmc.trace.server": "off",
-    "files.eol": "\r\n"
+    "files.eol": "\r\n",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
 }
