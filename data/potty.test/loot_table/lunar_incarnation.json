@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{stats:{damage:1,attack_speed:600},rarity:5,gear_type:104b,request_lore:true,attachments:[{id:'lunar_trial',count:2}]}"
+                            "tag": "{stats:{damage:1,attack_speed:600},rarity:5,gear_type:104b,request_lore:true,attachments:[{id:'lunar_trial',count:2},{id:'lunar_trial',count:2}]}"
                         },
                         {
                             "function": "set_name",
