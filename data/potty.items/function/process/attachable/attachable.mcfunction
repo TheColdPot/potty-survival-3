@@ -7,5 +7,3 @@ item modify entity @s container.0 potty.items:display/attachments/attachable_nam
 item modify entity @s container.0 potty.items:display/attachments/attachable_inscription
 item modify entity @s container.0 potty.items:display/attachments/header_ability
 item modify entity @s container.0 potty.items:display/attachments/line
-
-tellraw @a {"nbt":"output", "storage": "potty.items:database"}
