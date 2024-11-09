@@ -1,5 +1,5 @@
 scoreboard objectives add var dummy
-scoreboard objectives add persis_var dummy
+scoreboard objectives add persist_var dummy
 scoreboard objectives add animation_frame dummy
 
 # scoreboard objectives add constant dummy
@@ -24,3 +24,7 @@ scoreboard objectives add uid dummy
 
 function potty.combat:init
 function potty.items:init
+
+scoreboard players add #reload_count persist_var 1
+# title @a subtitle [{"text":"This is CUMU Reload #","color":"gray"}, {"score": {"name": "#reload_count", "objective": "persist_var"}}, "!"]
+# title @a title "RELOAD!"
