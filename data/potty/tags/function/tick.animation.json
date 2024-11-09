@@ -1,5 +1,6 @@
 {
   "values": [
-    "potty.items:grindstone/tick.animation.switch"
+    "potty.items:grindstone/animation_switch",
+    "potty.items:anvil/animation_switch"
   ]
 }
