@@ -33,7 +33,7 @@
         "area_effect_cloud",
         "potion",
         "marker",
-        "boat",
+        "#boat",
         "interaction",
         "experience_bottle",
         "experience_orb",
