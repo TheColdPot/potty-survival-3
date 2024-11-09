@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "team": "anvil_entities"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "potty.items:anvil/interact"
+  }
+}
