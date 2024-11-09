@@ -4,7 +4,7 @@ data modify storage potty.items:constructor item.components."minecraft:custom_da
 function potty.items:process/from_storage
 
 # summon an item
-summon item ~ ~1 ~ {Tags:[grindstone_attachable,new_summon],Item:{id:"iron_nugget"}, Motion:[0d, .1d, 0d],PickupDelay:20s}
+summon item ~ ~2 ~ {Tags:[grindstone_attachable,new_summon],Item:{id:"iron_nugget"},PickupDelay:20s}
 data modify storage potty.items:constructor target.count set from storage potty.items:constructor current_attachment.count
 data modify entity @e[type=item,distance=..2,tag=grindstone_attachable,tag=new_summon,limit=1] Item set from storage potty.items:constructor target
 

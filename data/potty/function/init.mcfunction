@@ -1,4 +1,6 @@
 scoreboard objectives add var dummy
+scoreboard objectives add persis_var dummy
+scoreboard objectives add animation_frame dummy
 
 # scoreboard objectives add constant dummy
 

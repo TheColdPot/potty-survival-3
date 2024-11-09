@@ -1,0 +1,1 @@
+$particle trail{color:16448250,target:$(trail_target)} ~ ~1 ~ .2 .2 .2 0 40
