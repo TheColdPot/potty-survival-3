@@ -6,5 +6,8 @@ execute as @n[tag=grindstone_item,distance=..1.5] run item replace entity @s con
 
 playsound entity.item.pickup block @a
 
+# data merge entity @n[tag=grindstone_tooltip,distance=..1.5] {transformation:{translation:[0f,-.1f,0f]},text:'["ɢʀɪɴᴅsᴛᴏɴᴇ","\\n",{"translate":"","fallback":"Place by %s","with": [{"keybind": "key.use", "color": "yellow"}]}]'}
+
+
 tag @s remove grindstone_has_item
 tag @s add grindstone_busy

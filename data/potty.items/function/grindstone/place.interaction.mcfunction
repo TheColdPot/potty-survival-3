@@ -5,5 +5,9 @@ summon item_display ~ ~ ~ {Tags:[new_summon,"grindstone_entity",grindstone_item]
 ride @e[tag=new_summon,distance=..1,limit=1] mount @s
 tag @e[tag=new_summon,distance=..1] remove new_summon
 
+# summon text_display ~ ~ ~ {Tags:[new_summon,"grindstone_entity",grindstone_tooltip],billboard:"center",text:'["ɢʀɪɴᴅsᴛᴏɴᴇ","\\n",{"translate":"","fallback":"Place by %s","with": [{"keybind": "key.use", "color": "yellow"}]}]',alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],translation:[0f, -.1f,0f]}}
+# ride @e[tag=new_summon,distance=..1,limit=1] mount @s
+# tag @e[tag=new_summon,distance=..1] remove new_summon
+
 # to identify the entity. How smart I am.
 team join grindstone_entities
