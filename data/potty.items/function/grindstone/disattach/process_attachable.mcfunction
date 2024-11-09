@@ -8,4 +8,4 @@ summon item ~ ~2 ~ {Tags:[grindstone_attachable,new_summon],Item:{id:"iron_nugge
 data modify storage potty.items:constructor target.count set from storage potty.items:constructor current_attachment.count
 data modify entity @e[type=item,distance=..2,tag=grindstone_attachable,tag=new_summon,limit=1] Item set from storage potty.items:constructor target
 
-tag @e[type=item,distance=..1,tag=grindstone_attachable,tag=new_summon,limit=1] remove new_summon
+tag @e[type=item,distance=..2,tag=grindstone_attachable,tag=new_summon,limit=1] remove new_summon
