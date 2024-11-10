@@ -1,0 +1,11 @@
+[
+  {
+    "function": "set_custom_data",
+    "tag": "{request_lore: true}"
+  },
+  {
+    "function": "set_lore",
+    "lore": [],
+    "mode": "replace_all"
+  }
+]
