@@ -23,6 +23,7 @@ execute store result score #slot_attachment_count var run data get storage potty
 scoreboard players operation #total_attachment_count var += #slot_attachment_count var
 
 item modify entity @s container.0 potty.items:display/attachments/header
+execute store result entity @s item.components."minecraft:custom_data".occupied_attachment_slots int 1 run scoreboard players get #total_attachment_count var
 
 scoreboard players reset #total_attachment_count
 scoreboard players reset #slot_attachment_count

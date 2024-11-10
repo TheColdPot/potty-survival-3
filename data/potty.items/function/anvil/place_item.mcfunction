@@ -1,6 +1,6 @@
 
-# execute on target unless function potty.items:anvil/place_item.check run return fail
 execute if score @s animation_frame matches 0.. run return fail
+execute on target unless function potty.items:anvil/place_item.check run return run tellraw @a[limit=1,tag=anvil_player] "not attachable!"
 
 item replace entity @n[tag=anvil_item,distance=..1.5] container.0 from entity @a[limit=1,tag=anvil_player] weapon.mainhand
 item replace entity @a[limit=1,tag=anvil_player] weapon.mainhand with air
