@@ -48,7 +48,7 @@ scoreboard players operation @s crit_chance_armor += #piece_stat var
 execute store result score #piece_stat var run data get storage potty.items:stats feet_stats.crit_chance
 scoreboard players operation @s crit_chance_armor += #piece_stat var
 
-scoreboard players set @s crit_damage_armor 0
+scoreboard players set @s crit_damage_armor 30
 execute store result score #piece_stat var run data get storage potty.items:stats head_stats.crit_damage
 scoreboard players operation @s crit_damage_armor += #piece_stat var
 execute store result score #piece_stat var run data get storage potty.items:stats chest_stats.crit_damage
