@@ -14,6 +14,9 @@ scoreboard objectives add ferocity_stat dummy
 scoreboard objectives add strength_stat dummy
 scoreboard objectives add attack_speed_stat dummy
 
+scoreboard objectives add splash_radius_stat dummy
+scoreboard objectives add splash_damage_stat dummy
+
 scoreboard objectives add selected_slot dummy
 
 kill 706f7474-7973-4872-0000-adc200000001
