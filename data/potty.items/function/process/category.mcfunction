@@ -11,6 +11,7 @@ execute if score #gear_type var matches 100 run data modify storage potty.items:
 execute if score #gear_type var matches 103 run data modify storage potty.items:constructor gear_type_name set value '["",{"translate":"potty.gear.dagger.space","font":"potty:spaces","color":"#424242","fallback":""},{"translate":"potty.gear.dagger","fallback":" 🗡 ᴅᴀɢɢᴇʀ ","color":"gray"}]'
 execute if score #gear_type var matches 104 run data modify storage potty.items:constructor gear_type_name set value '["",{"translate":"potty.gear.katana.space","font":"potty:spaces","color":"#424242","fallback":""},{"translate":"potty.gear.katana","fallback":" 🗡 ᴋᴀᴛᴀɴᴀ ","color":"gray"}]'
 execute if score #gear_type var matches 105 run data modify storage potty.items:constructor gear_type_name set value '["",{"translate":"potty.gear.claymore.space","font":"potty:spaces","color":"#424242","fallback":""},{"translate":"potty.gear.claymore","fallback":" ᴄʟᴀʏᴍᴏʀᴇ ","color":"gray"}]'
+execute if score #gear_type var matches 106 run data modify storage potty.items:constructor gear_type_name set value '["",{"translate":"potty.gear.cudgel.space","font":"potty:spaces","color":"#424242","fallback":""},{"translate":"potty.gear.cudgel","fallback":" 🗡 ᴄᴜᴅɢᴇʟ ","color":"gray"}]'
 
 
 scoreboard players set #gear_rarity var 1
