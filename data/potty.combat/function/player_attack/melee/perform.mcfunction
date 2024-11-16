@@ -3,6 +3,10 @@
 execute on attacker if items entity @s weapon.mainhand bow run return fail
 execute on attacker run function potty.combat:player_attack/start_cooldown
 
+# count for cleave charge
+execute on attacker run scoreboard players add @s cleave_charge 1
+
+
 
 tag @s add combat.victim
 # assume setup

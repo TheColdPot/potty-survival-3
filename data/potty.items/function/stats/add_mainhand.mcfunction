@@ -40,6 +40,15 @@ execute store result score #piece_stat var run data get storage potty.items:cons
 scoreboard players operation @s attack_speed_stat = @s attack_speed_armor
 scoreboard players operation @s attack_speed_stat += #piece_stat var
 
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.splash_damage
+scoreboard players operation @s splash_damage_stat = @s splash_damage_armor
+scoreboard players operation @s splash_damage_stat += #piece_stat var
+scoreboard players operation @s splash_damage_stat < #max_splash_damage var
+
+execute store result score #piece_stat var run data get storage potty.items:constructor mainhand_stats.splash_radius
+scoreboard players operation @s splash_radius_stat = @s splash_radius_armor
+scoreboard players operation @s splash_radius_stat += #piece_stat var
+
 
 scoreboard players set @s attack_cooldown 600
 scoreboard players operation #shifted_attack_speed var = @s attack_speed_stat
@@ -55,4 +64,3 @@ scoreboard players operation @s strength = @s strength_stat
 scoreboard players operation @s max_health = @s health_stat
 scoreboard players operation @s defense = @s defense_stat
 
-# say 1

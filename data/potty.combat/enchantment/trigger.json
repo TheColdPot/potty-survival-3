@@ -1,30 +1,68 @@
 {
-    "anvil_cost": 0,
-    "weight": 1,
-    "description": {"text":""},
-    "supported_items": "#swords",
-    "min_cost": {
-        "base": 1,
-        "per_level_above_first": 1
-    },
-    "max_cost": {
-        "base": 1,
-        "per_level_above_first": 1
-    },
-    "slots": [
-        "mainhand"
-    ],
-    "effects": {
-        "post_attack": [
+  "anvil_cost": 0,
+  "weight": 1,
+  "description": {
+    "text": ""
+  },
+  "supported_items": "#swords",
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "post_attack": [
+      
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "potty.combat:player_attack/cleave/trigger"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
             {
-                "effect": {
-                    "type": "run_function",
-                    "function": "potty.combat:player_attack/trigger"
-                },
-                "enchanted": "attacker",
-                "affected": "victim"
+              "condition": "entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "movement": {
+                  "fall_distance": {
+                    "min": 1E-20
+                  }
+                }
+              }
+            },
+            {
+              "condition": "value_check",
+              "value": {
+                "type": "score",
+                "target": "direct_attacker",
+                "score": "cleave_charge"
+              },
+              "range": {
+                "min": 5
+              }
             }
-        ]
-    },
-    "max_level": 1
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "potty.combat:player_attack/trigger"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_level": 1
 }
