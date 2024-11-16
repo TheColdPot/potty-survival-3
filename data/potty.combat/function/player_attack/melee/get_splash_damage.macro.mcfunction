@@ -1,0 +1,1 @@
+$execute store result storage potty:combat splash_damage int $(splash_scale) run scoreboard players get #received_damage var

@@ -18,7 +18,14 @@
   ],
   "effects": {
     "post_attack": [
-      
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "potty.combat:player_attack/stopsound"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
       {
         "effect": {
           "type": "run_function",

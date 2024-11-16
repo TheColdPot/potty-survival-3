@@ -1,0 +1,29 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    [
+      {
+        "text": "☄ ",
+        "italic": false,
+        "color": "gray"
+      },
+      {
+        "translate": "potty.stat.splash_radius",
+        "fallback": "Splash Radius"
+      },
+      ": ",
+      [
+        {
+          "text": "+",
+          "color": "white"
+        },
+        {
+          "nbt": "target.components.minecraft:custom_data.stats.splash_radius",
+          "storage": "potty.items:constructor"
+        }
+      ]
+    ]
+  ],
+  "entity": "this"
+}

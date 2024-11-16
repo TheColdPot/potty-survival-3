@@ -12,6 +12,10 @@ execute if data storage potty.items:constructor target.components.minecraft:cust
 
 execute if data storage potty.items:constructor target.components.minecraft:custom_data.stats.ferocity run item modify entity @s container.0 potty.items:display/stats/ferocity
 
+execute if data storage potty.items:constructor target.components.minecraft:custom_data.stats.splash_radius run item modify entity @s container.0 potty.items:display/stats/splash_radius
+
+execute if data storage potty.items:constructor target.components.minecraft:custom_data.stats.splash_damage run item modify entity @s container.0 potty.items:display/stats/splash_damage
+
 execute if data storage potty.items:constructor target.components.minecraft:custom_data.stats.health run item modify entity @s container.0 potty.items:display/stats/health
 
 execute if data storage potty.items:constructor target.components.minecraft:custom_data.stats.defense run item modify entity @s container.0 potty.items:display/stats/defense

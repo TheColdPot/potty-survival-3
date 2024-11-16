@@ -10,5 +10,7 @@ execute if score reflect_health var matches ..1 unless score @s health matches .
 execute store result entity @s Health float 1 run scoreboard players get reflect_health var
 execute if score @s health matches ..-1 run scoreboard players set @s health 0
 
+function potty.combat:health_bar/update.wrapper
+
 # todo: make a exclusive style for damage splash
 function potty.combat:damage_splash/plain
