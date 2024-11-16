@@ -8,13 +8,7 @@ execute store result entity @s Health float 1 run scoreboard players get reflect
 execute if score @s health matches ..-1 run scoreboard players set @s health 0
 # say 1
 # do not schedule ferocity here
-# splash damage here
-tag @s add self
-execute on attacker run function potty.combat:damage_calculation/copy_splash_stats
-execute store result storage potty:combat splash_radius float 0.01 run scoreboard players get #splash_radius var
-# todo: make distance the right value (player's splash radius)
-execute if score #splash_radius var matches 1.. run function potty.combat:player_attack/melee/splash.macro with storage potty:combat
-tag @s remove self
+
 
 function potty.combat:player_attack/post_attack
 execute on attacker run function potty.combat:sweeping/charge

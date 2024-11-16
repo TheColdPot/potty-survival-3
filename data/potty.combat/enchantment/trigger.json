@@ -32,7 +32,7 @@
           "function": "potty.combat:player_attack/cleave/trigger"
         },
         "enchanted": "attacker",
-        "affected": "attacker",
+        "affected": "victim",
         "requirements": {
           "condition": "all_of",
           "terms": [
