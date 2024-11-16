@@ -20,33 +20,14 @@ execute if score #melee_charge_percentage var matches 14 run data merge storage 
 execute if score #melee_charge_percentage var matches 15 run data merge storage potty:actionbar {bar_left: "               ", bar_right: ""}
 
 
-execute if score @s melee_charge_stacks matches 0 run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
+execute if score @s cleave_charge matches ..4 run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
   \
-  [{"text":"🄌","color":"gray"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"gray"},{"storage":"potty:actionbar","nbt":"bar_right","color":"dark_gray"}]], \
-  \
-  "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
-
-execute if score @s melee_charge_stacks matches 1 run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
-  \
-  [{"text":"➊","color":"yellow"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"yellow"},{"storage":"potty:actionbar","nbt":"bar_right","color":"gray"}]], \
+  ["",{"text":"✦ ","color":"gray"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"gold"},{"storage":"potty:actionbar","nbt":"bar_right","color":"dark_gray"}]], \
   \
   "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
 
-execute if score @s melee_charge_stacks matches 2 run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
+execute if score @s cleave_charge matches 5.. run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
   \
-  [{"text":"➋","color":"gold"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"gold"},{"storage":"potty:actionbar","nbt":"bar_right","color":"yellow"}]], \
-  \
-  "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
-
-execute if score @s melee_charge_stacks matches 3 if score @s combo_progress < #melee_charge_max var run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
-  \
-  [{"text":"➌","color":"red"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"red"},{"storage":"potty:actionbar","nbt":"bar_right","color":"gold"}]], \
+  ["",{"text":"✦ ","color":"gold"}, "", [{"storage":"potty:actionbar","nbt":"bar_left","strikethrough":true,"color":"gold"},{"storage":"potty:actionbar","nbt":"bar_right","color":"dark_gray"}]], \
   \
   "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
-
-execute if score @s melee_charge_stacks matches 3 unless score @s combo_progress < #melee_charge_max var run title @s actionbar ["", [{"score": {"name": "*", "objective": "health"},"color":"red"}, "/", {"score": {"name": "*", "objective": "max_health"}}, {"text":" ❤"}], "   ", \
-  \
-  [{"text":"➌","color":"dark_red"}, "",{"text":"               ","strikethrough":true,"color":"dark_red"}], \
-  \
-  "   ",[{"score": {"name": "*", "objective": "mana"},"color":"aqua"}, "/", {"score": {"name": "*", "objective": "max_mana"}}, {"text":" Mana"}]]
-
