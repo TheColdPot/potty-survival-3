@@ -5,6 +5,7 @@ execute on attacker run function potty.combat:player_attack/start_cooldown
 
 # count for cleave charge
 execute on attacker run scoreboard players add @s cleave_charge 1
+execute on attacker run scoreboard players operation @s cleave_charge < #3 var
 
 
 

@@ -10,12 +10,19 @@ scoreboard players set #UNIT_M var 1000000
 scoreboard players set #UNIT_B var 1000000000
 
 scoreboard players set #HUNDRED var 100
+scoreboard players set #3 var 3
+scoreboard players set #THREE var 3
+scoreboard players set #5 var 5
 scoreboard players set #FIVE var 5
+scoreboard players set #10 var 10
 scoreboard players set #TEN var 10
+scoreboard players set #20 var 20
 scoreboard players set #TWENTY var 20
+scoreboard players set #15 var 15
 scoreboard players set #FIFTEEN var 15
 scoreboard players set #INT_MAX var 2147483647
 scoreboard players set #SIGN_NEGATIVE var -1
+scoreboard players set #0 var 0
 scoreboard players set #ZERO var 0
 scoreboard players set #SIGN_POSITIVE var 1
 
