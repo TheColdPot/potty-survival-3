@@ -11,7 +11,7 @@ execute if score @s health matches ..-1 run scoreboard players set @s health 0
 
 
 function potty.combat:player_attack/post_attack
-execute on attacker run function potty.combat:sweeping/charge
+execute on attacker run function potty.combat:sword_ability/charge
 
 execute if score @s health matches 0 run function potty.combat:player_attack/handle_death
 # say 1
