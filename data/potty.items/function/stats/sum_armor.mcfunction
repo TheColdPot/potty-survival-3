@@ -78,7 +78,7 @@ scoreboard players operation @s attack_speed_armor += #piece_stat var
 execute store result score #piece_stat var run data get storage potty.items:stats feet_stats.attack_speed
 scoreboard players operation @s attack_speed_armor += #piece_stat var
 
-scoreboard players set @s splash_radius_armor 0
+scoreboard players set @s splash_radius_armor 50
 execute store result score #piece_stat var run data get storage potty.items:stats head_stats.splash_radius
 scoreboard players operation @s splash_radius_armor += #piece_stat var
 execute store result score #piece_stat var run data get storage potty.items:stats chest_stats.splash_radius
@@ -88,7 +88,7 @@ scoreboard players operation @s splash_radius_armor += #piece_stat var
 execute store result score #piece_stat var run data get storage potty.items:stats feet_stats.splash_radius
 scoreboard players operation @s splash_radius_armor += #piece_stat var
 
-scoreboard players set @s splash_damage_armor 0
+scoreboard players set @s splash_damage_armor 10
 execute store result score #piece_stat var run data get storage potty.items:stats head_stats.splash_damage
 scoreboard players operation @s splash_damage_armor += #piece_stat var
 execute store result score #piece_stat var run data get storage potty.items:stats chest_stats.splash_damage
