@@ -1,27 +1,27 @@
 [
-    {
-        "function": "set_enchantments",
-        "add": true,
-        "enchantments": {
-            "potty.combat:trigger": 1
-        }
-    },
-    {
-        "function": "set_attributes",
-        "modifiers": [
-            {
-                "id": "potty.combat:add_melee_damage",
-                "amount": 1,
-                "attribute": "attack_damage",
-                "operation": "add_value",
-                "slot": "any"
-            }
-        ]
-    },
-    {
-        "function": "toggle_tooltips",
-        "toggles": {
-            "attribute_modifiers": false
-        }
+  {
+    "function": "set_enchantments",
+    "add": true,
+    "enchantments": {
+      "potty.combat:mob_activation": 1
     }
+  },
+  {
+    "function": "set_attributes",
+    "modifiers": [
+      {
+        "id": "potty.combat:add_melee_damage",
+        "amount": 1,
+        "attribute": "attack_damage",
+        "operation": "add_value",
+        "slot": "any"
+      }
+    ]
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "attribute_modifiers": false
+    }
+  }
 ]

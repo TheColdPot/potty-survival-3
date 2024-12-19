@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 0,
+  "weight": 1,
+  "description": {
+    "text": ""
+  },
+  "supported_items": "#swords",
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "run_function",
+          "function": "potty.combat:player_attack/enchant_for_mob"
+        }
+      }
+    ]
+  },
+  "max_level": 1
+}
