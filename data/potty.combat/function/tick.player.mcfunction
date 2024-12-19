@@ -18,7 +18,7 @@ attribute @s[scores={attack_countdown=..0}] movement_speed modifier remove block
 attribute @s armor modifier add potty.combat:remove_armor -114514 add_value
 attribute @s armor_toughness modifier add potty.combat:remove_armor 114514 add_value
 attribute @s attack_damage modifier add potty.combat:remove_damage -0.9999 add_multiplied_total
-attribute @s attack_damage base set 0
+# attribute @s attack_damage base set 0
 attribute @s attack_damage modifier remove minecraft:base_attack_damage
 attribute @s fall_damage_multiplier base set 0
 execute if score @s latest_sweep_time = #global_time var run attribute @s knockback_resistance modifier remove kbre
