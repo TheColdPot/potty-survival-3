@@ -21,6 +21,14 @@
       {
         "effect": {
           "type": "run_function",
+          "function": "potty.combat:player_attack/stopsound"
+        },
+        "enchanted": "victim",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "run_function",
           "function": "potty.combat:player_attack/cleave/trigger"
         },
         "enchanted": "victim",
